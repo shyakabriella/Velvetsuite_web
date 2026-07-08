@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js no-svg">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<link rel="profile" href="//gmpg.org/xfn/11">
+		<title>Velvet Suites Kigali – Restaurant &amp; Menu</title>
+
+		<!-- All in One SEO 4.8.9 - aioseo.com -->
+	<meta name="description" content="Explore the Velvet Suites Kigali restaurant menu featuring delicious local and international dishes, crafted for an unforgettable dining experience." />
+	<meta name="robots" content="max-image-preview:large" />
+	<link rel="canonical" href="https://www.velvetsuites.rw/menu/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.8.9" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Velvet Suites - Your Gateway to Unmatched Comfort and Style" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Velvet Suites Kigali – Restaurant &amp; Menu" />
+		<meta property="og:description" content="Explore the Velvet Suites Kigali restaurant menu featuring delicious local and international dishes, crafted for an unforgettable dining experience." />
+		<meta property="og:url" content="https://www.velvetsuites.rw/menu/" />
+		<meta property="og:image" content="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png" />
+		<meta property="og:image:secure_url" content="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png" />
+		<meta property="og:image:width" content="829" />
+		<meta property="og:image:height" content="537" />
+		<meta property="article:published_time" content="2023-03-26T10:00:37+00:00" />
+		<meta property="article:modified_time" content="2026-05-01T10:35:32+00:00" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Velvet Suites Kigali – Restaurant &amp; Menu" />
+		<meta name="twitter:description" content="Explore the Velvet Suites Kigali restaurant menu featuring delicious local and international dishes, crafted for an unforgettable dining experience." />
+		<meta name="twitter:image" content="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.velvetsuites.rw\/menu\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.velvetsuites.rw#listItem","position":1,"name":"Home","item":"https:\/\/www.velvetsuites.rw","nextItem":{"@type":"ListItem","@id":"https:\/\/www.velvetsuites.rw\/menu\/#listItem","name":"Food Menu"}},{"@type":"ListItem","@id":"https:\/\/www.velvetsuites.rw\/menu\/#listItem","position":2,"name":"Food Menu","previousItem":{"@type":"ListItem","@id":"https:\/\/www.velvetsuites.rw#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/www.velvetsuites.rw\/#organization","name":"Velvet Suites","description":"Your Gateway to Unmatched Comfort and Style","url":"https:\/\/www.velvetsuites.rw\/","telephone":"+250780925118","logo":{"@type":"ImageObject","url":"https:\/\/www.velvetsuites.rw\/wp-content\/uploads\/2025\/06\/cropped-Velvet-.png","@id":"https:\/\/www.velvetsuites.rw\/menu\/#organizationLogo","width":829,"height":537},"image":{"@id":"https:\/\/www.velvetsuites.rw\/menu\/#organizationLogo"},"sameAs":["https:\/\/www.instagram.com\/velve_tsuites\/"]},{"@type":"WebPage","@id":"https:\/\/www.velvetsuites.rw\/menu\/#webpage","url":"https:\/\/www.velvetsuites.rw\/menu\/","name":"Velvet Suites Kigali \u2013 Restaurant & Menu","description":"Explore the Velvet Suites Kigali restaurant menu featuring delicious local and international dishes, crafted for an unforgettable dining experience.","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/www.velvetsuites.rw\/#website"},"breadcrumb":{"@id":"https:\/\/www.velvetsuites.rw\/menu\/#breadcrumblist"},"datePublished":"2023-03-26T10:00:37+00:00","dateModified":"2026-05-01T10:35:32+00:00"},{"@type":"WebSite","@id":"https:\/\/www.velvetsuites.rw\/#website","url":"https:\/\/www.velvetsuites.rw\/","name":"Velvet Suites","description":"Your Gateway to Unmatched Comfort and Style","inLanguage":"en-US","publisher":{"@id":"https:\/\/www.velvetsuites.rw\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel='stylesheet' id='loftocean-flaticons-css' href='https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/libs/flaticon-font/flaticon_hotel.min.css?ver=2025021201' media='all' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Velvet Suites &raquo; Feed" href="https://www.velvetsuites.rw/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Velvet Suites &raquo; Comments Feed" href="https://www.velvetsuites.rw/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.velvetsuites.rw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.velvetsuites.rw%2Fmenu%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.velvetsuites.rw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.velvetsuites.rw%2Fmenu%2F&#038;format=xml" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v10.2.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+					<!-- No tracking code set -->
+				<!-- / Google Analytics by MonsterInsights -->
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<link rel='stylesheet' id='cozystay-theme-google-fonts-css' href='https://fonts.googleapis.com/css?family=Marcellus%3A100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%7CJost%3A400%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C100%2C200%2C300%2C500%2C600%2C700%2C800&#038;display=swap&#038;ver=20250201201' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/libs/slick/slick.min.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/fonts/font-awesome/css/all.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='font-awesome6-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/fonts/font-awesome6/css/all.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='elegant-font-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/fonts/elegant-font/font.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.velvetsuites.rw/wp-includes/css/dist/block-library/common.min.css?ver=7.0' media='all' />
+
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.3.8' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.3.8' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.3.8' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='cozystay-theme-style-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/styles/front/main.min.css?ver=20250201201' media='all' />
+<link rel='stylesheet' id='cozystay-woocommerce-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/styles/front/shop.min.css?ver=20250201201' media='all' />
+<style id="cozystay-woocommerce-inline-css">
+:root { --primary-color: #420606; --primary-color-semi: rgba(66, 6, 6, 0.3); --secondary-color: #dd9933; --dark-bg-color: #441508; --shf-color: var(--secondary-color); } #page { --page-title-bg: #475746; --page-title-color: #ffffff; }.invisible-label { position: absolute; left: -9999999999px; } .sidemenu .container { background-color: #ffffff; } .sidemenu .container { color: #000000; } .sidemenu.custom-width { max-width: 475px; }
+/*# sourceURL=cozystay-woocommerce-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.3.8' media='all' />
+
+<link rel='stylesheet' id='nta-css-popup-css' href='https://www.velvetsuites.rw/wp-content/plugins/wp-whatsapp/assets/dist/css/style.css?ver=7.0' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.velvetsuites.rw/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.3' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='brands-styles-css' href='https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.3.8' media='all' />
+<link rel='stylesheet' id='jquery-daterangepicker-css' href='https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/libs/daterangepicker/daterangepicker.min.css?ver=3.1.1' media='all' />
+<link rel='stylesheet' id='loftocean-flaticons2-css' href='https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/libs/flaticon-font2/flaticon_hotel_2.min.css?ver=2025021201' media='all' />
+<link rel='stylesheet' id='dflip-style-css' href='https://www.velvetsuites.rw/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=2.4.20' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.32.5' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css' href='https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-8.css?ver=1782892615' media='all' />
+<link rel='stylesheet' id='elementor-post-25-css' href='https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-25.css?ver=1782898140' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://www.velvetsuites.rw/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1750060284' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://www.velvetsuites.rw/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1750060290' media='all' />
+<script id="modernizr-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/libs/modernizr.min.js?ver=3.3.1"></script>
+<script id="jquery-core-js" src="https://www.velvetsuites.rw/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.velvetsuites.rw/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script data-wp-strategy="defer" id="wc-jquery-blockui-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.3.8"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://www.velvetsuites.rw/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.3.8"></script>
+<script data-wp-strategy="defer" id="wc-js-cookie-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.3.8"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-PZZH23HM" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.velvetsuites.rw"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-PZZH23HM");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://www.velvetsuites.rw/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.velvetsuites.rw/wp-json/wp/v2/pages/25" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.velvetsuites.rw/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<meta name="generator" content="WooCommerce 10.3.8" />
+<link rel='shortlink' href='https://www.velvetsuites.rw/?p=25' />
+<meta name="generator" content="Site Kit by Google 1.182.0" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.32.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-1-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-1-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-1-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-1-1-270x270.png" />
+<style id="wp-custom-css">
+.post-title {
+    font-size: 20px !important;
+    font-size: 1.5rem;
+  }.sidemenu .container {
+  background-color: #420606;
+}
+
+
+</style>
+	<link rel='stylesheet' id='widget-spacer-css' href='https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.32.5' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.32.5' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.32.5' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.32.5' media='all' />
+<link rel='stylesheet' id='justified-gallery-css' href='https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/libs/justified-gallery/justifiedGallery.min.css?ver=3.6.3' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+
+</head>
+
+	<body class="wp-singular page-template page-template-elementor_header_footer page page-id-25 wp-custom-logo wp-embed-responsive wp-theme-cozystay theme-cozystay woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-25 light-color site-layout-fullwidth cs-form-square">
+				<div id="page">
+										<header id="masthead" class="site-header overlap-header" data-sticky-status="scroll-up-enable" >			<link rel="stylesheet" id="elementor-post-182-css" href="https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-182.css?ver=1782892616" type="text/css" media="all">		<div data-elementor-type="wp-post" data-elementor-id="182" class="elementor elementor-182">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-1827a322 elementor-section-content-middle elementor-hidden-tablet elementor-hidden-mobile elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="1827a322" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3d341673 dark-color" data-id="3d341673" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1e2a7daa elementor-widget__width-auto elementor-widget elementor-widget-cs_menu_toggle" data-id="1e2a7daa" data-element_type="widget" data-widget_type="cs_menu_toggle.default">
+				<div class="elementor-widget-container">
+					        <button class="menu-toggle elementor-widget-menu-toggle">
+			<span class="screen-reader-text">Menu</span>
+			<span class="menu-toggle-icon"></span>
+					</button>				</div>
+				</div>
+				<div class="elementor-element elementor-element-79543eae elementor-widget__width-auto elementor-widget elementor-widget-cs_menu" data-id="79543eae" data-element_type="widget" data-widget_type="cs_menu.default">
+				<div class="elementor-widget-container">
+					<nav class="cs-menu main-navigation not-mobile-menu dropdown-dark"><ul id="menu-79543eae" class="menu primary-menu"><li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="https://www.velvetsuites.rw/"><span>Home</span></a></li>
+<li id="menu-item-2257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2257"><a href="https://www.velvetsuites.rw/about-the-hotel/"><span>About Us</span></a></li>
+<li id="menu-item-2270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2270"><a href="https://www.velvetsuites.rw/policies/"><span>Policies</span></a></li>
+<li id="menu-item-2377" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2377"><a href="https://www.velvetsuites.rw/gallery/"><span>Gallery</span></a></li>
+<li id="menu-item-2414" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2414"><a href="https://www.velvetsuites.rw/menu/" aria-current="page"><span>Menu</span></a></li>
+</ul></nav>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-15208836 dark-color" data-id="15208836" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ecaaa3e elementor-align-center elementor-widget elementor-widget-cs_logo" data-id="ecaaa3e" data-element_type="widget" data-widget_type="cs_logo.default">
+				<div class="elementor-widget-container">
+					                <a href="https://www.velvetsuites.rw/" aria-label="Site Logo Image">                    <img width="255" height="165" src="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png" class="attachment-cozystay_255x9999 size-cozystay_255x9999 wp-image-1910" alt="" srcset="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png 255w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--150x97.png 150w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--600x389.png 600w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--300x194.png 300w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--768x497.png 768w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--780x505.png 780w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--550x356.png 550w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--370x240.png 370w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png 829w" sizes="(max-width: 255px) 100vw, 255px" />                </a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-60b6b98c dark-color" data-id="60b6b98c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5732c3b6 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="5732c3b6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><a href="tel:+250781423080">Tel: +250 781 423 080</a></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-2d1c712b elementor-widget__width-auto elementor-widget elementor-widget-cs_button" data-id="2d1c712b" data-element_type="widget" data-widget_type="cs_button.default">
+				<div class="elementor-widget-container">
+					
+						<div class="cs-button-popup cs-popup hide cs-popup-box cs-button-popup-2d1c712b" data-popup-hash="9e8775b528db3e1d4c1e06c617943d6c">
+														<span class="close-button">Close</span>
+							<div class="container">			<link rel="stylesheet" id="elementor-post-1132-css" href="https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-1132.css?ver=1782892616" type="text/css" media="all">		<div data-elementor-type="wp-post" data-elementor-id="1132" class="elementor elementor-1132">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-43a7146 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="43a7146" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8e06084" data-id="8e06084" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-daf9957 elementor-widget elementor-widget-spacer" data-id="daf9957" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3f50bc0 light-color" data-id="3f50bc0" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b798e3f elementor-widget elementor-widget-cs_title" data-id="b798e3f" data-element_type="widget" data-widget_type="cs_title.default">
+				<div class="elementor-widget-container">
+					
+        <div class="cs-title-wrap text-center">	            <div class="cs-subtitle-wrap"><span class="cs-subtitle">Choose Date to Search</span></div>	            <h4 class="cs-title">
+	                Book Your Stay	            </h4>        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3b4c453 elementor-widget elementor-widget-cs_reservation" data-id="3b4c453" data-element_type="widget" data-widget_type="cs_reservation.default">
+				<div class="elementor-widget-container">
+					
+		<div class="cs-reservation-form style-block cs-form-square inline-label">
+			<form class="cs-form-wrap" data-display-date-format="YYYY-MM-DD" data-date-format="YYYY-MM-DD" action="https://www.velvetsuites.rw/" method="GET" data-elementor-widget-id="3b4c453">					<div class="cs-form-field cs-check-in">						<div class="field-wrap">
+							<label class="cs-form-label" for="room-reservation-3b4c453895-checkin">Check In</label>
+
+							<div class="field-input-wrap checkin-date">
+								<input type="text" class="date-range-picker" value="2026-07-08 - 2026-07-09">
+								<input type="text" value="" data-value="2026-07-08" class="check-in-date" name="" id="room-reservation-3b4c453895-checkin" readonly>
+							</div>
+						</div>
+					</div>
+					<div class="cs-form-field cs-check-out">						<div class="field-wrap">
+							<label class="cs-form-label" for="room-reservation-3b4c453895-checkout">Check Out</label>
+
+							<div class="field-input-wrap checkout-date">
+								<input type="text" value="" id="room-reservation-3b4c453895-checkout" data-value="2026-07-09" class="check-out-date" name="" readonly>
+							</div>
+						</div>
+					</div>			<div class="cs-form-field cs-rooms cs-has-dropdown">
+				<div class="field-wrap">
+					<label class="cs-form-label" for="room-reservation-3b4c453895-rooms">Rooms</label>
+
+					<div class="field-input-wrap has-dropdown">
+						<input type="text" name="" id="room-reservation-3b4c453895-rooms" value="1 Room" readonly="">
+					</div>
+
+					<div class="csf-dropdown">
+						<div class="csf-dropdown-item">
+							<label class="cs-form-label">Rooms</label>
+
+							<div class="quantity cs-quantity" data-label="room">
+								<label class="screen-reader-text">Rooms quantity</label>
+								<button class="minus disabled"></button>
+								<input type="text" name="room-quantity" value="1" class="input-text" autocomplete="off" readonly="" data-min="1" data-max="50">
+								<button class="plus"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				<div class="cs-form-field cs-guests cs-has-dropdown">
+					<div class="field-wrap">
+						<label class="cs-form-label" for="room-reservation-3b4c453895-guests">Guests</label>
+
+						<div class="field-input-wrap has-dropdown">
+							<input type="text" name="" id="room-reservation-3b4c453895-guests" value="1 Adult, 0 Children" readonly="">
+						</div>
+
+						<div class="csf-dropdown">								<div class="csf-dropdown-item">
+									<label class="cs-form-label">Adults									</label>
+
+									<div class="quantity cs-quantity" data-label="adult">
+										<label class="screen-reader-text">Adults quantity</label>
+										<button class="minus disabled"></button>
+										<input type="text" name="adult-quantity" value="1" class="input-text" autocomplete="off" readonly="" data-min="1" data-max="50">
+										<button class="plus"></button>
+									</div>
+								</div>								<div class="csf-dropdown-item">
+									<label class="cs-form-label">Children									</label>
+
+									<div class="quantity cs-quantity" data-label="child">
+										<label class="screen-reader-text">Children quantity</label>
+										<button class="minus disabled"></button>
+										<input type="text" name="child-quantity" value="0" class="input-text" autocomplete="off" readonly="" data-min="0" data-max="50">
+										<button class="plus"></button>
+									</div>
+								</div>						</div>
+					</div>
+				</div>
+				<div class="cs-form-field cs-submit">
+					<div class="field-wrap">
+						<button class="button" role="button" type="submit">
+							<span class="btn-text">Check Availability</span>
+						</button>
+					</div>
+				</div>
+				<input type="hidden" name="search_rooms" value="" />
+							</form>
+					</div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>
+						</div>        <a href="#" class="elementor-button-link button cs-btn-outline cs-btn-small cs-btn-color-white popup-box-enabled" role="button" data-popup-hash="9e8775b528db3e1d4c1e06c617943d6c">
+            <span class="cs-btn-text">Reserve Now</span>        </a>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-212f26c4 elementor-section-content-middle elementor-hidden-desktop elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="212f26c4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2151b475 dark-color" data-id="2151b475" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5d4f0c6e elementor-widget__width-auto elementor-widget elementor-widget-cs_menu_toggle" data-id="5d4f0c6e" data-element_type="widget" data-widget_type="cs_menu_toggle.default">
+				<div class="elementor-widget-container">
+					        <button class="menu-toggle elementor-widget-menu-toggle">
+			<span class="screen-reader-text">Menu</span>
+			<span class="menu-toggle-icon"></span>
+					</button>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-598779d2" data-id="598779d2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4ee0d62d elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-cs_logo" data-id="4ee0d62d" data-element_type="widget" data-widget_type="cs_logo.default">
+				<div class="elementor-widget-container">
+					                <a href="https://www.velvetsuites.rw/" aria-label="Site Logo Image">                    <img width="255" height="165" src="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png" class="attachment-cozystay_255x9999 size-cozystay_255x9999 wp-image-1910" alt="" srcset="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png 255w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--150x97.png 150w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--600x389.png 600w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--300x194.png 300w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--768x497.png 768w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--780x505.png 780w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--550x356.png 550w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--370x240.png 370w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png 829w" sizes="(max-width: 255px) 100vw, 255px" />                </a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-550755d4 dark-color" data-id="550755d4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-652feb45 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="652feb45" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<a href="#">EN</a> / <a href="#">FR</a>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+						</header>				<header id="sticky-site-header" class="site-header custom-sticky-header hide overlap-header">			<link rel="stylesheet" id="elementor-post-1194-css" href="https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-1194.css?ver=1782892616" type="text/css" media="all">		<div data-elementor-type="wp-post" data-elementor-id="1194" class="elementor elementor-1194">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-1827a322 elementor-section-content-middle elementor-hidden-tablet elementor-hidden-mobile elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="1827a322" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-3d341673 dark-color" data-id="3d341673" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1e2a7daa elementor-widget__width-auto elementor-widget elementor-widget-cs_menu_toggle" data-id="1e2a7daa" data-element_type="widget" data-widget_type="cs_menu_toggle.default">
+				<div class="elementor-widget-container">
+					        <button class="menu-toggle elementor-widget-menu-toggle">
+			<span class="screen-reader-text">Menu</span>
+			<span class="menu-toggle-icon"></span>
+					</button>				</div>
+				</div>
+				<div class="elementor-element elementor-element-79543eae elementor-widget__width-auto elementor-widget elementor-widget-cs_menu" data-id="79543eae" data-element_type="widget" data-widget_type="cs_menu.default">
+				<div class="elementor-widget-container">
+					<nav class="cs-menu main-navigation not-mobile-menu dropdown-dark"><ul id="menu-79543eae" class="menu primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="https://www.velvetsuites.rw/"><span>Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2257"><a href="https://www.velvetsuites.rw/about-the-hotel/"><span>About Us</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2270"><a href="https://www.velvetsuites.rw/policies/"><span>Policies</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2377"><a href="https://www.velvetsuites.rw/gallery/"><span>Gallery</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2414"><a href="https://www.velvetsuites.rw/menu/" aria-current="page"><span>Menu</span></a></li>
+</ul></nav>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-15208836 dark-color" data-id="15208836" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ecaaa3e elementor-align-center elementor-widget elementor-widget-cs_logo" data-id="ecaaa3e" data-element_type="widget" data-widget_type="cs_logo.default">
+				<div class="elementor-widget-container">
+					                <a href="https://www.velvetsuites.rw/" aria-label="Site Logo Image">                    <img width="255" height="165" src="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png" class="attachment-cozystay_255x9999 size-cozystay_255x9999 wp-image-1910" alt="" srcset="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png 255w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--150x97.png 150w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--600x389.png 600w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--300x194.png 300w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--768x497.png 768w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--780x505.png 780w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--550x356.png 550w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--370x240.png 370w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png 829w" sizes="(max-width: 255px) 100vw, 255px" />                </a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-60b6b98c dark-color" data-id="60b6b98c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5732c3b6 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="5732c3b6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<a href="tel:+250780925118">Tel: +250780925118</a>								</div>
+				</div>
+				<div class="elementor-element elementor-element-2d1c712b elementor-widget__width-auto elementor-widget elementor-widget-cs_button" data-id="2d1c712b" data-element_type="widget" data-widget_type="cs_button.default">
+				<div class="elementor-widget-container">
+					        <a href="#" class="elementor-button-link button cs-btn-rounded cs-btn-small cs-btn-color-white popup-box-enabled cs-btn-with-icon" role="button" data-popup-hash="9e8775b528db3e1d4c1e06c617943d6c">
+            <span class="cs-btn-text">Reserve Now</span>            	<span class="cs-btn-icon icon-arrow"></span>        </a>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-212f26c4 elementor-section-content-middle elementor-hidden-desktop elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="212f26c4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2151b475 dark-color" data-id="2151b475" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5d4f0c6e elementor-widget__width-auto elementor-widget elementor-widget-cs_menu_toggle" data-id="5d4f0c6e" data-element_type="widget" data-widget_type="cs_menu_toggle.default">
+				<div class="elementor-widget-container">
+					        <button class="menu-toggle elementor-widget-menu-toggle">
+			<span class="screen-reader-text">Menu</span>
+			<span class="menu-toggle-icon"></span>
+					</button>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-598779d2" data-id="598779d2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4ee0d62d elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-cs_logo" data-id="4ee0d62d" data-element_type="widget" data-widget_type="cs_logo.default">
+				<div class="elementor-widget-container">
+					                <a href="https://www.velvetsuites.rw/" aria-label="Site Logo Image">                    <img width="255" height="165" src="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png" class="attachment-cozystay_255x9999 size-cozystay_255x9999 wp-image-1910" alt="" srcset="https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--255x165.png 255w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--150x97.png 150w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--600x389.png 600w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--300x194.png 300w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--768x497.png 768w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--780x505.png 780w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--550x356.png 550w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet--370x240.png 370w, https://www.velvetsuites.rw/wp-content/uploads/2025/06/cropped-Velvet-.png 829w" sizes="(max-width: 255px) 100vw, 255px" />                </a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-550755d4 dark-color" data-id="550755d4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-652feb45 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="652feb45" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<a href="#">EN</a> / <a href="#">FR</a>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+						</header>			<div id="content"  class="site-content">
+						<div data-elementor-type="wp-page" data-elementor-id="25" class="elementor elementor-25">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-6042f230 elementor-section-height-min-height cs-section-content-fullwidth cs-parallax-on-scroll cs_scroll_y_80 elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="6042f230" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-cs-parallax-y="80" style="background-image: none;" data-cs-background-image="https://www.velvetsuites.rw/wp-content/uploads/2023/03/img-5.jpg" data-cs-background-image-alt-text="">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6f471981 dark-color" data-id="6f471981" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-40d0ced6 elementor-widget elementor-widget-cs_title" data-id="40d0ced6" data-element_type="widget" data-widget_type="cs_title.default">
+				<div class="elementor-widget-container">
+					
+        <div class="cs-title-wrap text-center">	            <h1 class="cs-title">
+	                Our Menu	            </h1>        </div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-571ac8fe cs-section-content-fullwidth elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="571ac8fe" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2fa7c811" data-id="2fa7c811" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9218703 elementor-widget elementor-widget-html" data-id="9218703" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<iframe 
+  src="https://menuforest.com/embed/velvet" 
+  width="100%" 
+  height="900px" 
+  frameborder="0" 
+  scrolling="auto"
+  style="border: none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+</iframe>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		            </div> <!-- end of #content -->
+                <footer id="colophon" class="site-footer">
+        					<div class="site-footer-main">
+						<div class="container">			<link rel="stylesheet" id="elementor-post-178-css" href="https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-178.css?ver=1782892616" type="text/css" media="all">		<div data-elementor-type="wp-post" data-elementor-id="178" class="elementor elementor-178">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-388232cf elementor-section-full_width cs-section-content-fullwidth cs_scroll_y_80 cs-parallax-on-scroll elementor-section-height-default elementor-section-height-default" data-id="388232cf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-cs-parallax-y="80">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4b6d3e71 dark-color" data-id="4b6d3e71" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-18feb1f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="18feb1f3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4f304d45" data-id="4f304d45" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-72742df3 elementor-widget elementor-widget-cs_title" data-id="72742df3" data-element_type="widget" data-widget_type="cs_title.default">
+				<div class="elementor-widget-container">
+					
+        <div class="cs-title-wrap">	            <h6 class="cs-title">
+	                VELVET SUITES	            </h6>	            <div class="cs-title-text">
+	                <p dir="ltr" data-pm-slice="1 1 []">Experience unparalleled comfort and elegance at Velvet Suites, your premier destination for luxury hospitality in the heart of the city.</p>	            </div>        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-caa167a elementor-shape-circle e-grid-align-left elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="caa167a" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-fa74984" href="https://www.youtube.com/@VelvetSuitesKigali" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-tripadvisor elementor-repeater-item-30a6d98" href="https://www.tripadvisor.com/Hotel_Review-g293829-d26635262-Reviews-Velvet_Suites-Kigali_Kigali_Province.html" target="_blank">
+						<span class="elementor-screen-only">Tripadvisor</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-tripadvisor" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M528.91,178.82,576,127.58H471.66a326.11,326.11,0,0,0-367,0H0l47.09,51.24A143.911,143.911,0,0,0,241.86,390.73L288,440.93l46.11-50.17A143.94,143.94,0,0,0,575.88,285.18h-.03A143.56,143.56,0,0,0,528.91,178.82ZM144.06,382.57a97.39,97.39,0,1,1,97.39-97.39A97.39,97.39,0,0,1,144.06,382.57ZM288,282.37c0-64.09-46.62-119.08-108.09-142.59a281,281,0,0,1,216.17,0C334.61,163.3,288,218.29,288,282.37Zm143.88,100.2h-.01a97.405,97.405,0,1,1,.01,0ZM144.06,234.12h-.01a51.06,51.06,0,1,0,51.06,51.06v-.11A51,51,0,0,0,144.06,234.12Zm287.82,0a51.06,51.06,0,1,0,51.06,51.06A51.06,51.06,0,0,0,431.88,234.12Z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-099fdb1" href="https://www.instagram.com/velve_tsuites/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-flaticon-food-service elementor-repeater-item-e983468" href="https://www.velvetsuites.rw/menu/" target="_blank">
+						<span class="elementor-screen-only">Flaticon-food-service</span>
+						<i aria-hidden="true" class="flaticon flaticon-food-service"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-33114845" data-id="33114845" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-24a4b3ba elementor-widget elementor-widget-cs_title" data-id="24a4b3ba" data-element_type="widget" data-widget_type="cs_title.default">
+				<div class="elementor-widget-container">
+					
+        <div class="cs-title-wrap">	            <h6 class="cs-title">
+	                Reach Out	            </h6>        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f8c95d4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f8c95d4" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="mailto:iinfo@velvetsuites.rw">
+
+											<span class="elementor-icon-list-text">Email: info@velvetsuites.rw</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="tel:+250%20780925118">
+
+											<span class="elementor-icon-list-text">Telephone: +250 780925118</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">10 KG 111 Street, Remera, Kigali</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-1c6e1448 elementor-widget elementor-widget-cs_button" data-id="1c6e1448" data-element_type="widget" data-widget_type="cs_button.default">
+				<div class="elementor-widget-container">
+					        <a href="https://maps.app.goo.gl/JRdiYDvtasDyTqYV7" target="_blank" class="elementor-button-link button cs-btn-square cs-btn-small cs-btn-with-icon" role="button">
+            <span class="cs-btn-text">VIEW ON MAP</span>            	<span class="cs-btn-icon icon-arrow"></span>        </a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2ff6e5ee" data-id="2ff6e5ee" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-48266c66 elementor-widget elementor-widget-cs_title" data-id="48266c66" data-element_type="widget" data-widget_type="cs_title.default">
+				<div class="elementor-widget-container">
+					
+        <div class="cs-title-wrap">	            <h6 class="cs-title">
+	                Quick Links	            </h6>        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-35c204e elementor-widget elementor-widget-cs_menu" data-id="35c204e" data-element_type="widget" data-widget_type="cs_menu.default">
+				<div class="elementor-widget-container">
+					<nav class="cs-menu cs-menu-mobile"><ul id="menu-35c204e" class="menu mobile-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="https://www.velvetsuites.rw/"><span>Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2257"><a href="https://www.velvetsuites.rw/about-the-hotel/"><span>About Us</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2270"><a href="https://www.velvetsuites.rw/policies/"><span>Policies</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2377"><a href="https://www.velvetsuites.rw/gallery/"><span>Gallery</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2414"><a href="https://www.velvetsuites.rw/menu/" aria-current="page"><span>Menu</span></a></li>
+</ul></nav>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>
+					</div>                    </footer>                    </div> <!-- end of #page -->
+
+        				<div  class="sidemenu sidemenu-custom slide-from-left custom-width">					<div class="container">							<div class="sidemenu-header"><span class="close-button">Close</span></div>						<div class="sidemenu-content">			<link rel="stylesheet" id="elementor-post-279-css" href="https://www.velvetsuites.rw/wp-content/uploads/elementor/css/post-279.css?ver=1782892616" type="text/css" media="all">		<div data-elementor-type="wp-post" data-elementor-id="279" class="elementor elementor-279">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-6b2e7290 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6b2e7290" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c6542a" data-id="1c6542a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3aa442c elementor-widget elementor-widget-cs_menu" data-id="3aa442c" data-element_type="widget" data-widget_type="cs_menu.default">
+				<div class="elementor-widget-container">
+					<nav class="cs-menu main-navigation not-mobile-menu dropdown-dark"><ul id="menu-3aa442c" class="menu primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="https://www.velvetsuites.rw/"><span>Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2257"><a href="https://www.velvetsuites.rw/about-the-hotel/"><span>About Us</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2270"><a href="https://www.velvetsuites.rw/policies/"><span>Policies</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2377"><a href="https://www.velvetsuites.rw/gallery/"><span>Gallery</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2414"><a href="https://www.velvetsuites.rw/menu/" aria-current="page"><span>Menu</span></a></li>
+</ul></nav>				</div>
+				</div>
+				<div class="elementor-element elementor-element-618b9c6a elementor-widget elementor-widget-cs_title" data-id="618b9c6a" data-element_type="widget" data-widget_type="cs_title.default">
+				<div class="elementor-widget-container">
+					
+        <div class="cs-title-wrap">	            <h6 class="cs-title color-white">
+	                Contact Info	            </h6>        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-28c9116 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="28c9116" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.google.com/maps/place/Moynier+Park/@46.2179375,6.1471642,17z/data=!4m15!1m8!3m7!1s0x478c65245e5afe1d:0x778486b82264d3eb!2sQuai+du+Mont-Blanc+19,+1201+Gen%C3%A8ve,+Switzerland!3b1!8m2!3d46.210521!4d6.1501575!16s%2Fg%2F11b8v43sz7!3m5!1s0x478c651940597add:0xd57c71f641e5366c!8m2!3d46.220116!4d6.151366!16s%2Fg%2F121k2xdw" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">10 KG 111 Street, Remera, Kigali</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="tel:+41223456788">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">+250 780 925 118</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="mailto:info@velvetsuites.rw">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-far-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">nfo@velvetsuites.rw</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4bf4fbc0 elementor-widget elementor-widget-cs_social" data-id="4bf4fbc0" data-element_type="widget" data-widget_type="cs_social.default">
+				<div class="elementor-widget-container">
+					<nav id="4bf4fbc0-social-menu-container" class="social-navigation"><ul id="4bf4fbc0-social-menu" class="social-nav menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="https://www.facebook.com/">Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="https://www.instagram.com/">Instagram</a></li>
+</ul></nav>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4a8c7748 elementor-widget elementor-widget-text-editor" data-id="4a8c7748" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>© Copyright Velvet Suites Ltd.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>
+					</div>
+				</div>    <a href="#" class="to-top" aria-label="Site Scroll to Top Icon"></a><div class="search-screen">
+	<div class="container">
+		<span class="close-button">Close</span>
+		<div class="search-wrapper">
+			<div class="search">
+    <form class="search-form" role="search" method="get" action="https://www.velvetsuites.rw/">
+        <label>
+            <span class="screen-reader-text">Search for:</span>
+            <input type="search" class="search-field" placeholder="Enter a keyword to search" autocomplete="off" name="s">
+        </label>
+        <button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </form>
+</div>
+		</div>
+	</div>
+</div>
+        <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/cozystay/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="wa"></div>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	        <script data-cfasync="false">
+            window.dFlipLocation = 'https://www.velvetsuites.rw/wp-content/plugins/3d-flipbook-dflip-lite/assets/';
+            window.dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"viewerType":"flipbook","moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"false","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","showSearchControl":"false","showPrintControl":"false","enableAnnotation":false,"enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"flipbook-"};
+        </script>
+      <script id="cozystay-helper-js-extra">
+var cozystayHelper = {"siteURL":"https://www.velvetsuites.rw/"};
+//# sourceURL=cozystay-helper-js-extra
+</script>
+<script id="cozystay-helper-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/front/helper.min.js?ver=20250201201"></script>
+<script id="slick-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/libs/slick/slick.min.js?ver=1.8"></script>
+<script id="cozystay-animations-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/front/animations.min.js?ver=20250201201"></script>
+<script id="loftocean-video-player-js-extra">
+var loftoceanFullscreenVideos = {"videos":[],"wrapClass":"loftocean-media-wrapper loftocean-media-fullscreen-playing"};
+//# sourceURL=loftocean-video-player-js-extra
+</script>
+<script id="loftocean-video-player-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/front/video-player.min.js?ver=2025021201"></script>
+<script id="cozystay-sticky-site-header-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/front/sticky-site-header.min.js?ver=20250201201"></script>
+<script id="justified-gallery-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/libs/justified-gallery/jquery.justifiedGallery.min.js?ver=3.6.5"></script>
+<script id="jquery-fitvids-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/libs/jquery.fitvids.min.js?ver=1.1"></script>
+<script id="cozystay-theme-script-js-extra">
+var cozystay = {"errorText":{"noMediaFound":"No image found"},"woocommerceProductFilterAjaxEnabled":"","onepagemenus":""};
+//# sourceURL=cozystay-theme-script-js-extra
+</script>
+<script id="cozystay-theme-script-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/front/main.min.js?ver=20250201201"></script>
+<script id="wp-api-request-js-extra">
+var wpApiSettings = {"root":"https://www.velvetsuites.rw/wp-json/","nonce":"6c0d98de5e","versionString":"wp/v2/"};
+//# sourceURL=wp-api-request-js-extra
+</script>
+<script id="wp-api-request-js" src="https://www.velvetsuites.rw/wp-includes/js/api-request.min.js?ver=7.0"></script>
+<script id="cozystay-ajax-navigation-js-extra">
+var cozystayAjaxNavigation = {"noMoreText":"No More Posts","data":{"query":{"page":"","pagename":"menu","paged":2,"ignore_sticky_posts":true,"post_status":"publish"},"settings":{"archive_page":"","page_layout":"with-sidebar-right","layout":"list","columns":false,"post_meta":["excerpt","read_more_btn","author","date"]},"nonce":"8a2ae14be4"}};
+//# sourceURL=cozystay-ajax-navigation-js-extra
+</script>
+<script id="cozystay-ajax-navigation-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/front/ajax-navigation.min.js?ver=20250201201"></script>
+<script id="wp-polyfill-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"></script>
+<script id="wp-hooks-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wc-cart-checkout-base-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-cart-checkout-base-frontend.js?ver=161c226e82cfe5aeaa29"></script>
+<script id="wc-cart-checkout-vendors-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-cart-checkout-vendors-frontend.js?ver=bcad3fab21852551edee"></script>
+<script id="react-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"></script>
+<script id="react-dom-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"></script>
+<script id="react-jsx-runtime-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1"></script>
+<script id="wc-types-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-types.js?ver=f0cc692c0367e0930c80"></script>
+<script id="wc-blocks-checkout-events-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/blocks-checkout-events.js?ver=2d0fd4590f6cc663947c"></script>
+<script id="wp-url-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/url.min.js?ver=bb0f766c3d2efe497871"></script>
+<script id="wp-api-fetch-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/api-fetch.min.js?ver=d7efe4dc1468d36c39b8"></script>
+<script id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://www.velvetsuites.rw/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "6c0d98de5e" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://www.velvetsuites.rw/wp-admin/admin-ajax.php?action=rest-nonce";
+//# sourceURL=wp-api-fetch-js-after
+</script>
+<script id="wc-settings-js-before">
+var wcSettings = JSON.parse( decodeURIComponent( '%7B%22shippingCostRequiresAddress%22%3Afalse%2C%22adminUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fwp-admin%5C%2F%22%2C%22countries%22%3A%7B%22AF%22%3A%22Afghanistan%22%2C%22AX%22%3A%22%5Cu00c5land%20Islands%22%2C%22AL%22%3A%22Albania%22%2C%22DZ%22%3A%22Algeria%22%2C%22AS%22%3A%22American%20Samoa%22%2C%22AD%22%3A%22Andorra%22%2C%22AO%22%3A%22Angola%22%2C%22AI%22%3A%22Anguilla%22%2C%22AQ%22%3A%22Antarctica%22%2C%22AG%22%3A%22Antigua%20and%20Barbuda%22%2C%22AR%22%3A%22Argentina%22%2C%22AM%22%3A%22Armenia%22%2C%22AW%22%3A%22Aruba%22%2C%22AU%22%3A%22Australia%22%2C%22AT%22%3A%22Austria%22%2C%22AZ%22%3A%22Azerbaijan%22%2C%22BS%22%3A%22Bahamas%22%2C%22BH%22%3A%22Bahrain%22%2C%22BD%22%3A%22Bangladesh%22%2C%22BB%22%3A%22Barbados%22%2C%22BY%22%3A%22Belarus%22%2C%22PW%22%3A%22Belau%22%2C%22BE%22%3A%22Belgium%22%2C%22BZ%22%3A%22Belize%22%2C%22BJ%22%3A%22Benin%22%2C%22BM%22%3A%22Bermuda%22%2C%22BT%22%3A%22Bhutan%22%2C%22BO%22%3A%22Bolivia%22%2C%22BQ%22%3A%22Bonaire%2C%20Saint%20Eustatius%20and%20Saba%22%2C%22BA%22%3A%22Bosnia%20and%20Herzegovina%22%2C%22BW%22%3A%22Botswana%22%2C%22BV%22%3A%22Bouvet%20Island%22%2C%22BR%22%3A%22Brazil%22%2C%22IO%22%3A%22British%20Indian%20Ocean%20Territory%22%2C%22BN%22%3A%22Brunei%22%2C%22BG%22%3A%22Bulgaria%22%2C%22BF%22%3A%22Burkina%20Faso%22%2C%22BI%22%3A%22Burundi%22%2C%22KH%22%3A%22Cambodia%22%2C%22CM%22%3A%22Cameroon%22%2C%22CA%22%3A%22Canada%22%2C%22CV%22%3A%22Cape%20Verde%22%2C%22KY%22%3A%22Cayman%20Islands%22%2C%22CF%22%3A%22Central%20African%20Republic%22%2C%22TD%22%3A%22Chad%22%2C%22CL%22%3A%22Chile%22%2C%22CN%22%3A%22China%22%2C%22CX%22%3A%22Christmas%20Island%22%2C%22CC%22%3A%22Cocos%20%28Keeling%29%20Islands%22%2C%22CO%22%3A%22Colombia%22%2C%22KM%22%3A%22Comoros%22%2C%22CG%22%3A%22Congo%20%28Brazzaville%29%22%2C%22CD%22%3A%22Congo%20%28Kinshasa%29%22%2C%22CK%22%3A%22Cook%20Islands%22%2C%22CR%22%3A%22Costa%20Rica%22%2C%22HR%22%3A%22Croatia%22%2C%22CU%22%3A%22Cuba%22%2C%22CW%22%3A%22Cura%26ccedil%3Bao%22%2C%22CY%22%3A%22Cyprus%22%2C%22CZ%22%3A%22Czech%20Republic%22%2C%22DK%22%3A%22Denmark%22%2C%22DJ%22%3A%22Djibouti%22%2C%22DM%22%3A%22Dominica%22%2C%22DO%22%3A%22Dominican%20Republic%22%2C%22EC%22%3A%22Ecuador%22%2C%22EG%22%3A%22Egypt%22%2C%22SV%22%3A%22El%20Salvador%22%2C%22GQ%22%3A%22Equatorial%20Guinea%22%2C%22ER%22%3A%22Eritrea%22%2C%22EE%22%3A%22Estonia%22%2C%22SZ%22%3A%22Eswatini%22%2C%22ET%22%3A%22Ethiopia%22%2C%22FK%22%3A%22Falkland%20Islands%22%2C%22FO%22%3A%22Faroe%20Islands%22%2C%22FJ%22%3A%22Fiji%22%2C%22FI%22%3A%22Finland%22%2C%22FR%22%3A%22France%22%2C%22GF%22%3A%22French%20Guiana%22%2C%22PF%22%3A%22French%20Polynesia%22%2C%22TF%22%3A%22French%20Southern%20Territories%22%2C%22GA%22%3A%22Gabon%22%2C%22GM%22%3A%22Gambia%22%2C%22GE%22%3A%22Georgia%22%2C%22DE%22%3A%22Germany%22%2C%22GH%22%3A%22Ghana%22%2C%22GI%22%3A%22Gibraltar%22%2C%22GR%22%3A%22Greece%22%2C%22GL%22%3A%22Greenland%22%2C%22GD%22%3A%22Grenada%22%2C%22GP%22%3A%22Guadeloupe%22%2C%22GU%22%3A%22Guam%22%2C%22GT%22%3A%22Guatemala%22%2C%22GG%22%3A%22Guernsey%22%2C%22GN%22%3A%22Guinea%22%2C%22GW%22%3A%22Guinea-Bissau%22%2C%22GY%22%3A%22Guyana%22%2C%22HT%22%3A%22Haiti%22%2C%22HM%22%3A%22Heard%20Island%20and%20McDonald%20Islands%22%2C%22HN%22%3A%22Honduras%22%2C%22HK%22%3A%22Hong%20Kong%22%2C%22HU%22%3A%22Hungary%22%2C%22IS%22%3A%22Iceland%22%2C%22IN%22%3A%22India%22%2C%22ID%22%3A%22Indonesia%22%2C%22IR%22%3A%22Iran%22%2C%22IQ%22%3A%22Iraq%22%2C%22IE%22%3A%22Ireland%22%2C%22IM%22%3A%22Isle%20of%20Man%22%2C%22IL%22%3A%22Israel%22%2C%22IT%22%3A%22Italy%22%2C%22CI%22%3A%22Ivory%20Coast%22%2C%22JM%22%3A%22Jamaica%22%2C%22JP%22%3A%22Japan%22%2C%22JE%22%3A%22Jersey%22%2C%22JO%22%3A%22Jordan%22%2C%22KZ%22%3A%22Kazakhstan%22%2C%22KE%22%3A%22Kenya%22%2C%22KI%22%3A%22Kiribati%22%2C%22XK%22%3A%22Kosovo%22%2C%22KW%22%3A%22Kuwait%22%2C%22KG%22%3A%22Kyrgyzstan%22%2C%22LA%22%3A%22Laos%22%2C%22LV%22%3A%22Latvia%22%2C%22LB%22%3A%22Lebanon%22%2C%22LS%22%3A%22Lesotho%22%2C%22LR%22%3A%22Liberia%22%2C%22LY%22%3A%22Libya%22%2C%22LI%22%3A%22Liechtenstein%22%2C%22LT%22%3A%22Lithuania%22%2C%22LU%22%3A%22Luxembourg%22%2C%22MO%22%3A%22Macao%22%2C%22MG%22%3A%22Madagascar%22%2C%22MW%22%3A%22Malawi%22%2C%22MY%22%3A%22Malaysia%22%2C%22MV%22%3A%22Maldives%22%2C%22ML%22%3A%22Mali%22%2C%22MT%22%3A%22Malta%22%2C%22MH%22%3A%22Marshall%20Islands%22%2C%22MQ%22%3A%22Martinique%22%2C%22MR%22%3A%22Mauritania%22%2C%22MU%22%3A%22Mauritius%22%2C%22YT%22%3A%22Mayotte%22%2C%22MX%22%3A%22Mexico%22%2C%22FM%22%3A%22Micronesia%22%2C%22MD%22%3A%22Moldova%22%2C%22MC%22%3A%22Monaco%22%2C%22MN%22%3A%22Mongolia%22%2C%22ME%22%3A%22Montenegro%22%2C%22MS%22%3A%22Montserrat%22%2C%22MA%22%3A%22Morocco%22%2C%22MZ%22%3A%22Mozambique%22%2C%22MM%22%3A%22Myanmar%22%2C%22NA%22%3A%22Namibia%22%2C%22NR%22%3A%22Nauru%22%2C%22NP%22%3A%22Nepal%22%2C%22NL%22%3A%22Netherlands%22%2C%22NC%22%3A%22New%20Caledonia%22%2C%22NZ%22%3A%22New%20Zealand%22%2C%22NI%22%3A%22Nicaragua%22%2C%22NE%22%3A%22Niger%22%2C%22NG%22%3A%22Nigeria%22%2C%22NU%22%3A%22Niue%22%2C%22NF%22%3A%22Norfolk%20Island%22%2C%22KP%22%3A%22North%20Korea%22%2C%22MK%22%3A%22North%20Macedonia%22%2C%22MP%22%3A%22Northern%20Mariana%20Islands%22%2C%22NO%22%3A%22Norway%22%2C%22OM%22%3A%22Oman%22%2C%22PK%22%3A%22Pakistan%22%2C%22PS%22%3A%22Palestinian%20Territory%22%2C%22PA%22%3A%22Panama%22%2C%22PG%22%3A%22Papua%20New%20Guinea%22%2C%22PY%22%3A%22Paraguay%22%2C%22PE%22%3A%22Peru%22%2C%22PH%22%3A%22Philippines%22%2C%22PN%22%3A%22Pitcairn%22%2C%22PL%22%3A%22Poland%22%2C%22PT%22%3A%22Portugal%22%2C%22PR%22%3A%22Puerto%20Rico%22%2C%22QA%22%3A%22Qatar%22%2C%22RE%22%3A%22Reunion%22%2C%22RO%22%3A%22Romania%22%2C%22RU%22%3A%22Russia%22%2C%22RW%22%3A%22Rwanda%22%2C%22ST%22%3A%22S%26atilde%3Bo%20Tom%26eacute%3B%20and%20Pr%26iacute%3Bncipe%22%2C%22BL%22%3A%22Saint%20Barth%26eacute%3Blemy%22%2C%22SH%22%3A%22Saint%20Helena%22%2C%22KN%22%3A%22Saint%20Kitts%20and%20Nevis%22%2C%22LC%22%3A%22Saint%20Lucia%22%2C%22SX%22%3A%22Saint%20Martin%20%28Dutch%20part%29%22%2C%22MF%22%3A%22Saint%20Martin%20%28French%20part%29%22%2C%22PM%22%3A%22Saint%20Pierre%20and%20Miquelon%22%2C%22VC%22%3A%22Saint%20Vincent%20and%20the%20Grenadines%22%2C%22WS%22%3A%22Samoa%22%2C%22SM%22%3A%22San%20Marino%22%2C%22SA%22%3A%22Saudi%20Arabia%22%2C%22SN%22%3A%22Senegal%22%2C%22RS%22%3A%22Serbia%22%2C%22SC%22%3A%22Seychelles%22%2C%22SL%22%3A%22Sierra%20Leone%22%2C%22SG%22%3A%22Singapore%22%2C%22SK%22%3A%22Slovakia%22%2C%22SI%22%3A%22Slovenia%22%2C%22SB%22%3A%22Solomon%20Islands%22%2C%22SO%22%3A%22Somalia%22%2C%22ZA%22%3A%22South%20Africa%22%2C%22GS%22%3A%22South%20Georgia%5C%2FSandwich%20Islands%22%2C%22KR%22%3A%22South%20Korea%22%2C%22SS%22%3A%22South%20Sudan%22%2C%22ES%22%3A%22Spain%22%2C%22LK%22%3A%22Sri%20Lanka%22%2C%22SD%22%3A%22Sudan%22%2C%22SR%22%3A%22Suriname%22%2C%22SJ%22%3A%22Svalbard%20and%20Jan%20Mayen%22%2C%22SE%22%3A%22Sweden%22%2C%22CH%22%3A%22Switzerland%22%2C%22SY%22%3A%22Syria%22%2C%22TW%22%3A%22Taiwan%22%2C%22TJ%22%3A%22Tajikistan%22%2C%22TZ%22%3A%22Tanzania%22%2C%22TH%22%3A%22Thailand%22%2C%22TL%22%3A%22Timor-Leste%22%2C%22TG%22%3A%22Togo%22%2C%22TK%22%3A%22Tokelau%22%2C%22TO%22%3A%22Tonga%22%2C%22TT%22%3A%22Trinidad%20and%20Tobago%22%2C%22TN%22%3A%22Tunisia%22%2C%22TR%22%3A%22T%5Cu00fcrkiye%22%2C%22TM%22%3A%22Turkmenistan%22%2C%22TC%22%3A%22Turks%20and%20Caicos%20Islands%22%2C%22TV%22%3A%22Tuvalu%22%2C%22UG%22%3A%22Uganda%22%2C%22UA%22%3A%22Ukraine%22%2C%22AE%22%3A%22United%20Arab%20Emirates%22%2C%22GB%22%3A%22United%20Kingdom%20%28UK%29%22%2C%22US%22%3A%22United%20States%20%28US%29%22%2C%22UM%22%3A%22United%20States%20%28US%29%20Minor%20Outlying%20Islands%22%2C%22UY%22%3A%22Uruguay%22%2C%22UZ%22%3A%22Uzbekistan%22%2C%22VU%22%3A%22Vanuatu%22%2C%22VA%22%3A%22Vatican%22%2C%22VE%22%3A%22Venezuela%22%2C%22VN%22%3A%22Vietnam%22%2C%22VG%22%3A%22Virgin%20Islands%20%28British%29%22%2C%22VI%22%3A%22Virgin%20Islands%20%28US%29%22%2C%22WF%22%3A%22Wallis%20and%20Futuna%22%2C%22EH%22%3A%22Western%20Sahara%22%2C%22YE%22%3A%22Yemen%22%2C%22ZM%22%3A%22Zambia%22%2C%22ZW%22%3A%22Zimbabwe%22%7D%2C%22currency%22%3A%7B%22code%22%3A%22USD%22%2C%22precision%22%3A2%2C%22symbol%22%3A%22%24%22%2C%22symbolPosition%22%3A%22left%22%2C%22decimalSeparator%22%3A%22.%22%2C%22thousandSeparator%22%3A%22%2C%22%2C%22priceFormat%22%3A%22%251%24s%252%24s%22%7D%2C%22currentUserId%22%3A0%2C%22currentUserIsAdmin%22%3Afalse%2C%22currentThemeIsFSETheme%22%3Afalse%2C%22dateFormat%22%3A%22F%20j%2C%20Y%22%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2F%22%2C%22locale%22%3A%7B%22siteLocale%22%3A%22en_US%22%2C%22userLocale%22%3A%22en_US%22%2C%22weekdaysShort%22%3A%5B%22Sun%22%2C%22Mon%22%2C%22Tue%22%2C%22Wed%22%2C%22Thu%22%2C%22Fri%22%2C%22Sat%22%5D%7D%2C%22isRemoteLoggingEnabled%22%3Afalse%2C%22dashboardUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fmy-account%5C%2F%22%2C%22orderStatuses%22%3A%7B%22pending%22%3A%22Pending%20payment%22%2C%22processing%22%3A%22Processing%22%2C%22on-hold%22%3A%22On%20hold%22%2C%22completed%22%3A%22Completed%22%2C%22cancelled%22%3A%22Cancelled%22%2C%22refunded%22%3A%22Refunded%22%2C%22failed%22%3A%22Failed%22%2C%22checkout-draft%22%3A%22Draft%22%7D%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder-300x300.png%22%2C%22productsSettings%22%3A%7B%22cartRedirectAfterAdd%22%3Afalse%7D%2C%22siteTitle%22%3A%22Velvet%20Suites%22%2C%22storePages%22%3A%7B%22myaccount%22%3A%7B%22id%22%3A13%2C%22title%22%3A%22My%20account%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fmy-account%5C%2F%22%7D%2C%22shop%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22cart%22%3A%7B%22id%22%3A11%2C%22title%22%3A%22Cart%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fcart%5C%2F%22%7D%2C%22checkout%22%3A%7B%22id%22%3A12%2C%22title%22%3A%22Checkout%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fcheckout%5C%2F%22%7D%2C%22privacy%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22terms%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%7D%2C%22wcAssetUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2F%22%2C%22wcVersion%22%3A%2210.3.8%22%2C%22wpLoginUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.velvetsuites.rw%5C%2Fwp-login.php%22%2C%22wpVersion%22%3A%227.0%22%7D' ) );
+//# sourceURL=wc-settings-js-before
+</script>
+<script id="wc-settings-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-settings.js?ver=508473c3c2ece9af8f8f"></script>
+<script id="wp-deprecated-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/deprecated.min.js?ver=990e85f234fee8f7d446"></script>
+<script id="wp-dom-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/dom.min.js?ver=66a6cf58e0c4cd128af0"></script>
+<script id="wp-escape-html-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/escape-html.min.js?ver=3f093e5cca67aa0f8b56"></script>
+<script id="wp-element-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/element.min.js?ver=15ba804677f72a8db97b"></script>
+<script id="wp-is-shallow-equal-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/is-shallow-equal.min.js?ver=5d84b9f3cb50d2ce7d04"></script>
+<script id="wp-keycodes-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/keycodes.min.js?ver=aa1a141e3468afe7f852"></script>
+<script id="wp-priority-queue-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/priority-queue.min.js?ver=1f0e89e247bc0bd3f9b9"></script>
+<script id="wp-undo-manager-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/undo-manager.min.js?ver=27bb0ae036a2c9d4a1b5"></script>
+<script id="wp-compose-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/compose.min.js?ver=edb5a8c0b5bf71686403"></script>
+<script id="wp-private-apis-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/private-apis.min.js?ver=835912f0086b9e59aed4"></script>
+<script id="wp-redux-routine-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/redux-routine.min.js?ver=64f9f5001aabc046c605"></script>
+<script id="wp-data-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/data.min.js?ver=1756b6a2676c1b3369ab"></script>
+<script id="wp-data-js-after">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+//# sourceURL=wp-data-js-after
+</script>
+<script id="wc-blocks-registry-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-registry.js?ver=a16aa912ffa0a15063f1"></script>
+<script id="wp-data-controls-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/data-controls.min.js?ver=730061ade69d7f341014"></script>
+<script id="wp-html-entities-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/html-entities.min.js?ver=8c6fa5b869dfeadc4af2"></script>
+<script id="wp-dom-ready-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-a11y-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="moment-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"></script>
+<script id="moment-js-after">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+//# sourceURL=moment-js-after
+</script>
+<script id="wp-date-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/date.min.js?ver=c9f8e7dd3232716f34e9"></script>
+<script id="wp-date-js-after">
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago","s":"a second","ss":"%d seconds","m":"a minute","mm":"%d minutes","h":"an hour","hh":"%d hours","d":"a day","dd":"%d days","M":"a month","MM":"%d months","y":"a year","yy":"%d years"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":0,"offsetFormatted":"0","string":"","abbr":""}} );
+//# sourceURL=wp-date-js-after
+</script>
+<script id="wp-primitives-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/primitives.min.js?ver=a5c905ec27bcd76ef287"></script>
+<script id="wp-rich-text-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/rich-text.min.js?ver=16449e6108f48327f368"></script>
+<script id="wp-warning-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/warning.min.js?ver=36fdbdc984d93aee8a97"></script>
+<script id="wp-components-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/components.min.js?ver=5dedfe13f08880193a28"></script>
+<script id="wp-notices-js" src="https://www.velvetsuites.rw/wp-includes/js/dist/notices.min.js?ver=218d0173a31ae7269246"></script>
+<script id="wc-blocks-middleware-js-before">
+			var wcBlocksMiddlewareConfig = {
+				storeApiNonce: 'a70ca058e8',
+				wcStoreApiNonceTimestamp: '1783495404'
+			};
+			
+//# sourceURL=wc-blocks-middleware-js-before
+</script>
+<script id="wc-blocks-middleware-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-middleware.js?ver=d79dedade2f2e4dc9df4"></script>
+<script id="wc-blocks-data-store-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-data.js?ver=c7cac5d19cadee0eb772"></script>
+<script id="wc-sanitize-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/admin/sanitize/index.js?ver=555561bffd642731f079"></script>
+<script id="wc-blocks-components-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/blocks-components.js?ver=8b64025baef8d338aa5e"></script>
+<script id="wc-blocks-checkout-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/client/blocks/blocks-checkout.js?ver=fd501851f2904ac6131a"></script>
+<script id="cozystay-woocommerce-js" src="https://www.velvetsuites.rw/wp-content/themes/cozystay/assets/scripts/front/shop.min.js?ver=20250201201"></script>
+<script id="swv-js" src="https://www.velvetsuites.rw/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.3"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.velvetsuites.rw\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://www.velvetsuites.rw/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.3"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script data-wp-strategy="defer" id="woocommerce-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.3.8"></script>
+<script id="nta-wa-libs-js" src="https://www.velvetsuites.rw/wp-content/plugins/wp-whatsapp/assets/dist/js/njt-whatsapp.js?ver=3.7.3"></script>
+<script id="nta-js-global-js-extra">
+var njt_wa_global = {"ajax_url":"https://www.velvetsuites.rw/wp-admin/admin-ajax.php","nonce":"5fb0ce4d54","defaultAvatarSVG":"\u003Csvg width=\"48px\" height=\"48px\" class=\"nta-whatsapp-default-avatar\" version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n            viewBox=\"0 0 512 512\" style=\"enable-background:new 0 0 512 512;\" xml:space=\"preserve\"\u003E\n            \u003Cpath style=\"fill:#EDEDED;\" d=\"M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0\n            S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z\"/\u003E\n            \u003Cpath style=\"fill:#55CD6C;\" d=\"M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662\n            c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234\n            c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z\"/\u003E\n            \u003Cpath style=\"fill:#FEFEFE;\" d=\"M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297\n            c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048\n            c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359\n            c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248\n            c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062\n            l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945\"/\u003E\n        \u003C/svg\u003E","defaultAvatarUrl":"https://www.velvetsuites.rw/wp-content/plugins/wp-whatsapp/assets/img/whatsapp_logo.svg","timezone":"+00:00","i18n":{"online":"Online","offline":"Offline"},"urlSettings":{"onDesktop":"api","onMobile":"api","openInNewTab":"ON"}};
+//# sourceURL=nta-js-global-js-extra
+</script>
+<script id="nta-js-global-js" src="https://www.velvetsuites.rw/wp-content/plugins/wp-whatsapp/assets/js/whatsapp-button.js?ver=3.7.3"></script>
+<script id="loftocean-base64-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/libs/base64/base64.min.js?ver=2025021201"></script>
+<script id="loftocean_room_reservation_utils-js-extra">
+var loftoceanRoomReservationUtilsData = {"i18nText":{"getRemotePriceListErrorMessage":"Failed to get the price list for the date range picked. Please try again later.","bookingError":"Something goes wrong, please try again later.","bookingSuccess":"The room reservation has been successfully added to your cart.","totalBasePriceLabel":"Total Base Price","baseDiscountLabel":"Base Price Discount","extraServiceLabel":"Extra Services","totalPriceLabel":"Total","noCheckin":"No Check-in","noCheckout":"No Checkout","minimum":"-night Minimum","maximum":"-night Maximum","adult":{"minus":{"general":"Minimum [number] adults","minimum":"Minimum [number] guests"},"plus":{"general":"Maximum [number] adults","maximum":"Maximum [number] guests"}},"child":{"minus":{"general":"Minimum [number] children","minimum":"Minimum [number] guests"},"plus":{"general":"Maximum [number] children","maximum":"Maximum [number] guests"}}},"allRoomsUnavailableDates":[]};
+var loftoceanRoomReservationUtilsData = {"i18nText":{"getRemotePriceListErrorMessage":"Failed to get the price list for the date range picked. Please try again later.","bookingError":"Something goes wrong, please try again later.","bookingSuccess":"The room reservation has been successfully added to your cart.","totalBasePriceLabel":"Total Base Price","baseDiscountLabel":"Base Price Discount","extraServiceLabel":"Extra Services","totalPriceLabel":"Total","noCheckin":"No Check-in","noCheckout":"No Checkout","minimum":"-night Minimum","maximum":"-night Maximum","adult":{"minus":{"general":"Minimum [number] adults","minimum":"Minimum [number] guests"},"plus":{"general":"Maximum [number] adults","maximum":"Maximum [number] guests"}},"child":{"minus":{"general":"Minimum [number] children","minimum":"Minimum [number] guests"},"plus":{"general":"Maximum [number] children","maximum":"Maximum [number] guests"}}},"allRoomsUnavailableDates":[]};
+//# sourceURL=loftocean_room_reservation_utils-js-extra
+</script>
+<script id="loftocean_room_reservation_utils-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/common/room-reservation-utils.min.js?ver=2025021201"></script>
+<script id="jquery-daterangepicker-js-extra">
+var datepickerSettings = {"weekStartsOn":"1"};
+//# sourceURL=jquery-daterangepicker-js-extra
+</script>
+<script id="jquery-daterangepicker-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/libs/daterangepicker/daterangepicker.min.js?ver=2025021201"></script>
+<script id="loftocean-front-media-js-extra">
+var loftoceanImageLoad = {"lazyLoadEnabled":"","reservation":{"room":{"single":"Room","plural":"Rooms","usePluralIfZero":false},"adult":{"single":"Adult","plural":"Adults","usePluralIfZero":true},"child":{"single":"Child","plural":"Children","usePluralIfZero":true}}};
+//# sourceURL=loftocean-front-media-js-extra
+</script>
+<script id="loftocean-front-media-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/front/front-media.min.js?ver=2025021201"></script>
+<script id="underscore-js" src="https://www.velvetsuites.rw/wp-includes/js/underscore.min.js?ver=1.13.8"></script>
+<script id="backbone-js" src="https://www.velvetsuites.rw/wp-includes/js/backbone.min.js?ver=1.6.1"></script>
+<script id="wp-api-js" src="https://www.velvetsuites.rw/wp-includes/js/wp-api.min.js?ver=7.0"></script>
+<script id="loftocean-post-metas-js-extra">
+var loftoceanSocialAjax = {"url":"https://www.velvetsuites.rw/wp-admin/admin-ajax.php","like":{"action":"loftocean_post_like"},"social":{"action":"loftocean_social_counter"},"loadPostMetasDynamically":"","currentPostID":""};
+//# sourceURL=loftocean-post-metas-js-extra
+</script>
+<script id="loftocean-post-metas-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/front/post-metas.min.js?ver=2025021201"></script>
+<script id="dflip-script-js" src="https://www.velvetsuites.rw/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.4.20"></script>
+<script id="elementor-webpack-runtime-js" src="https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.32.5"></script>
+<script id="elementor-frontend-modules-js" src="https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.32.5"></script>
+<script id="jquery-ui-core-js" src="https://www.velvetsuites.rw/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.32.5","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"import-export-customization":true},"urls":{"assets":"https:\/\/www.velvetsuites.rw\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/www.velvetsuites.rw\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/www.velvetsuites.rw\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"fcbb17a010"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":25,"title":"Velvet%20Suites%20Kigali%20%E2%80%93%20Restaurant%20%26%20Menu","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="https://www.velvetsuites.rw/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.32.5"></script>
+<script id="loftocean-facebook-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/front/facebook-jssdk.min.js?ver=2025021201"></script>
+<script id="dpo-icon-script-js" src="https://www.velvetsuites.rw/wp-content/plugins/dpo-group-for-woocommerce//assets/js/dpoIcons.js?ver=1.3.0"></script>
+<script id="sourcebuster-js-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.3.8"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://www.velvetsuites.rw/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="https://www.velvetsuites.rw/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.3.8"></script>
+<script id="googlesitekit-events-provider-contact-form-7-js" src="https://www.velvetsuites.rw/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-0310812e6aa65ef3c958.js" defer></script>
+<script id="mc4wp-forms-api-js" defer src="https://www.velvetsuites.rw/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.10.8"></script>
+<script id="googlesitekit-events-provider-mailchimp-js" src="https://www.velvetsuites.rw/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-mailchimp-ca65780bfd133f3af82c.js" defer></script>
+<script id="googlesitekit-events-provider-optin-monster-js" src="https://www.velvetsuites.rw/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-optin-monster-f6960b1ed80e457ea97e.js" defer></script>
+<script id="googlesitekit-events-provider-woocommerce-js-before">
+window._googlesitekit.wcdata = window._googlesitekit.wcdata || {};
+window._googlesitekit.wcdata.products = [];
+window._googlesitekit.wcdata.add_to_cart = null;
+window._googlesitekit.wcdata.currency = "USD";
+window._googlesitekit.wcdata.eventsToTrack = ["add_to_cart","purchase"];
+//# sourceURL=googlesitekit-events-provider-woocommerce-js-before
+</script>
+<script id="googlesitekit-events-provider-woocommerce-js" src="https://www.velvetsuites.rw/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-woocommerce-454120fdf8df4537b59f.js" defer></script>
+<script id="googlesitekit-events-provider-wpforms-js" src="https://www.velvetsuites.rw/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-wpforms-063cb453c64ecfd3dafe.js" defer></script>
+<script id="nta-js-popup-js-extra">
+var njt_wa = {"gdprStatus":"","accounts":[{"accountId":2227,"accountName":"Velvet Suites Reception","avatar":"","number":"+250780925118","title":"","predefinedText":"Welcome to Velvet Suites Front Desk. How may we help?","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}}],"options":{"display":{"displayCondition":"showAllPage","includePages":[],"excludePages":[],"includePosts":[],"showOnDesktop":"ON","showOnMobile":"ON","time_symbols":"h:m"},"styles":{"title":"Start a Conversation","responseText":"The team typically replies in a few minutes.","description":"Hi! Click one of our member below to chat on \u003Cstrong\u003EWhatsApp\u003C/strong\u003E","backgroundColor":"#2db742","textColor":"#fff","titleSize":18,"accountNameSize":14,"descriptionTextSize":12,"regularTextSize":11,"scrollHeight":500,"isShowScroll":"OFF","isShowResponseText":"ON","btnLabel":"Need Help? \u003Cstrong\u003EChat with us\u003C/strong\u003E","btnLabelWidth":156,"btnPosition":"right","btnLeftDistance":30,"btnRightDistance":30,"btnBottomDistance":30,"isShowBtnLabel":"ON","isShowGDPR":"OFF","gdprContent":"Please accept our \u003Ca href=\"https://ninjateam.org/privacy-policy/\"\u003Eprivacy policy\u003C/a\u003E first to start a conversation."},"analytics":{"enabledGoogle":"OFF","enabledFacebook":"OFF","enabledGoogleGA4":"OFF"}}};
+//# sourceURL=nta-js-popup-js-extra
+</script>
+<script id="nta-js-popup-js" src="https://www.velvetsuites.rw/wp-content/plugins/wp-whatsapp/assets/js/whatsapp-popup.js?ver=3.7.3"></script>
+<script id="loftocean-parallax-bundle-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/front/parallax-bundle.min.js?ver=2025021201"></script>
+<script id="loftocean-elementor-frontend-js-extra">
+var loftoceanElementorFront = {"countDown":{"days":"Days","hours":"Hours","min":"Minutes","sec":"Seconds"},"reservation":{"room":{"single":"Room","plural":"Rooms","usePluralIfZero":false},"adult":{"single":"Adult","plural":"Adults","usePluralIfZero":true},"child":{"single":"Child","plural":"Children","usePluralIfZero":true}}};
+//# sourceURL=loftocean-elementor-frontend-js-extra
+</script>
+<script id="loftocean-elementor-frontend-js" src="https://www.velvetsuites.rw/wp-content/plugins/cozystay-core/assets/scripts/front/elementor.min.js?ver=2025021201"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.velvetsuites.rw/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.velvetsuites.rw/wp-includes/js/wp-emoji-loader.min.js
+</script>
+    </script>
+    </body>
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 7.8.0.1 on 2026-07-08 07:23:25 -->
