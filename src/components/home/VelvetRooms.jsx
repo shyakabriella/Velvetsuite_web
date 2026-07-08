@@ -137,7 +137,7 @@ export default function VelvetRooms() {
           {rooms.slice(start, start + visible).map((room) => (
             <Link
               key={room.slug}
-              to={`/stays/${room.slug}`}
+              to={`https://direct-book.com/properties/velvetsuites`}
               style={{
                 background: '#fff',
                 boxShadow: '0 2px 12px rgba(0,0,0,0.07)',
