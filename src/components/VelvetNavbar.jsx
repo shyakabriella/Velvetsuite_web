@@ -4,7 +4,7 @@ import { useNavigate } from './Link';
 const navLinks = [
   { label: 'HOME', to: '/' },
   { label: 'ABOUT US', to: '/about' },
-  { label: 'POLICIES', to: '/policies' },
+  { label: 'POLICIES', to: 'https://direct-book.com/properties/velvetsuites/policies?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no' },
   { label: 'GALLERY', to: '/gallery' },
   { label: 'MENU', to: '/menu' },
 ];
@@ -75,11 +75,14 @@ export default function VelvetNavbar({ currentPath }) {
             <nav className="vs-nav-links">
               {navLinks.map(l => {
                 const active = currentPath === l.to;
+                const isExternal = l.to.startsWith('http');
                 return (
                   <a
                     key={l.to}
                     href={l.to}
-                    onClick={e => handleNav(e, l.to)}
+                    onClick={isExternal ? undefined : e => handleNav(e, l.to)}
+                    target={isExternal ? "_blank" : undefined}
+                    rel={isExternal ? "noopener noreferrer" : undefined}
                     className={`vs-nav-link ${active ? 'active' : ''}`}
                   >
                     {l.label}
@@ -115,26 +118,27 @@ export default function VelvetNavbar({ currentPath }) {
             <span className="vs-nav-tel">Tel: +250 781 423 080</span>
 
             <a
-              href="/stays"
-              onClick={e => handleNav(e, '/stays')}
+              href="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no"
+              target="_blank"
+              rel="noopener noreferrer"
               className="vs-reserve-btn"
               style={{
                 color: scrolled ? '#111' : '#fff',
                 background: scrolled ? '#fff' : 'transparent',
               }}
-              onMouseEnter={e => { 
-                  if (!scrolled) {
-                      e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; 
-                  } else {
-                      e.currentTarget.style.background = '#f0f0f0';
-                  }
+              onMouseEnter={e => {
+                if (!scrolled) {
+                  e.currentTarget.style.background = 'rgba(255,255,255,0.1)';
+                } else {
+                  e.currentTarget.style.background = '#f0f0f0';
+                }
               }}
-              onMouseLeave={e => { 
-                  if (!scrolled) {
-                      e.currentTarget.style.background = 'transparent'; 
-                  } else {
-                      e.currentTarget.style.background = '#fff';
-                  }
+              onMouseLeave={e => {
+                if (!scrolled) {
+                  e.currentTarget.style.background = 'transparent';
+                } else {
+                  e.currentTarget.style.background = '#fff';
+                }
               }}
             >
               Reserve Now {scrolled && <span style={{ fontSize: '14px', lineHeight: 1 }}>›</span>}
@@ -146,22 +150,28 @@ export default function VelvetNavbar({ currentPath }) {
 
       {/* ══ MOBILE DRAWER ══ */}
       <div className={`vs-mobile-drawer ${open ? 'open' : ''}`} style={{ top: 'clamp(80px, 14vw, 140px)', background: 'rgba(30,0,0,0.97)' }}>
-        {navLinks.map(l => (
-          <a
-            key={l.to}
-            href={l.to}
-            onClick={e => handleNav(e, l.to)}
-            className="vs-mobile-link"
-            style={{
-              color: currentPath === l.to ? '#c9a84c' : '#fff',
-            }}
-          >
-            {l.label}
-          </a>
-        ))}
+        {navLinks.map(l => {
+          const isExternal = l.to.startsWith('http');
+          return (
+            <a
+              key={l.to}
+              href={l.to}
+              onClick={isExternal ? () => setOpen(false) : e => handleNav(e, l.to)}
+              target={isExternal ? "_blank" : undefined}
+              rel={isExternal ? "noopener noreferrer" : undefined}
+              className="vs-mobile-link"
+              style={{
+                color: currentPath === l.to ? '#c9a84c' : '#fff',
+              }}
+            >
+              {l.label}
+            </a>
+          );
+        })}
         <a
-          href="/stays"
-          onClick={e => handleNav(e, '/stays')}
+          href="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no"
+          target="_blank"
+          rel="noopener noreferrer"
           className="vs-mobile-link"
           style={{ color: '#c9a84c', marginTop: '0.5rem' }}
         >
