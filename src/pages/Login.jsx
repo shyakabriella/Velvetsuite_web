@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Lock, Mail, AlertCircle, Star, Hotel, Sparkles } from 'lucide-react';
-import heroImg from '../Assets/p1.jpg';
-import nightImg from '../Assets/night view.avif';
+const heroImg = '/velvetGallarypageimages/image_0.jpeg';
+const nightImg = '/velvetGallarypageimages/image_1.jpeg';
 
 const SLIDES = [heroImg, nightImg];
 

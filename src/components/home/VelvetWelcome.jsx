@@ -8,40 +8,12 @@ const checks = [
 
 export default function VelvetWelcome() {
   return (
-    <section style={{
-      background: '#f5f4f0',
-      padding: '5rem 2rem',
-      textAlign: 'center',
-    }}>
-      <h2 style={{
-        fontFamily: "'Marcellus', serif",
-        fontSize: '2.2rem',
-        fontStyle: 'italic',
-        fontWeight: 400,
-        color: '#c9a84c',
-        marginBottom: '3rem',
-        marginTop: 0,
-      }}>Why Choose Velvet Suites</h2>
-      <ul style={{
-        listStyle: 'none',
-        margin: 0,
-        padding: 0,
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1.1rem',
-        alignItems: 'center',
-      }}>
+    <section className="vs-why-section">
+      <h2 className="vs-why-title">Why Choose Velvet Suites</h2>
+      <ul className="vs-why-list">
         {checks.map((item, i) => (
-          <li key={i} style={{
-            fontFamily: "'Lato', sans-serif",
-            fontSize: '1rem',
-            color: '#222',
-            display: 'flex',
-            alignItems: 'flex-start',
-            gap: '0.6rem',
-            maxWidth: '650px',
-          }}>
-            <span style={{ flexShrink: 0, fontSize: '1rem', marginTop: '1px', color: '#222' }}>✓</span>
+          <li key={i} className="vs-why-item">
+            <span className="vs-why-check">✓</span>
             <span>{item}</span>
           </li>
         ))}

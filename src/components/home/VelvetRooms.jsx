@@ -5,7 +5,6 @@ const rooms = [
   {
     slug: 'standard-single',
     name: 'Standard Single Room',
-   
     size: '20 m²',
     guests: 1,
     beds: '1 Single Bed',
@@ -14,7 +13,6 @@ const rooms = [
   {
     slug: 'standard-double',
     name: 'Standard Double Room',
-   
     size: '22–25 m²',
     guests: 2,
     beds: '1 Queen Bed',
@@ -23,7 +21,6 @@ const rooms = [
   {
     slug: 'standard-twin',
     name: 'Standard Twin Room',
-   
     size: '22–25 m²',
     guests: 2,
     beds: '2 Single Beds',
@@ -32,7 +29,6 @@ const rooms = [
   {
     slug: 'double-suite',
     name: 'Double Suite with Balcony',
-   
     size: '30–35 m²',
     guests: 2,
     beds: '1 King-size Bed',
@@ -41,7 +37,6 @@ const rooms = [
   {
     slug: 'family-house',
     name: 'Family House',
-   
     size: '120 m²',
     guests: 5,
     beds: '5 Queen Beds',
@@ -50,7 +45,6 @@ const rooms = [
   {
     slug: 'executive-suite',
     name: 'Executive Suite',
-   
     size: '40–45 m²',
     guests: 2,
     beds: '1 King-size Bed',
@@ -99,91 +93,47 @@ export default function VelvetRooms() {
   }, [maxStart]);
 
   return (
-    <section style={{ background: '#f5f4f0', padding: '3rem 0 4rem' }}>
-      <div style={{ position: 'relative', maxWidth: '1400px', margin: '0 auto', padding: '0 4.5rem' }}>
+    <section className="vs-rooms-section">
+      <div className="vs-rooms-slider-wrap">
 
         {/* Prev arrow */}
         <button
           onClick={() => setStart(s => Math.max(0, s - 1))}
           disabled={start === 0}
           aria-label="Previous rooms"
-          style={{
-            position: 'absolute',
-            top: '45%',
-            left: 0,
-            transform: 'translateY(-50%)',
-            width: '52px',
-            height: '52px',
-            borderRadius: '50%',
-            background: '#6B0000',
-            color: '#fff',
-            border: 'none',
-            cursor: start === 0 ? 'default' : 'pointer',
-            opacity: start === 0 ? 0.4 : 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '1.8rem',
-            lineHeight: 1,
-            zIndex: 10,
-            transition: 'background 0.2s',
-          }}
+          className="vs-slider-arrow left"
         >
           ‹
         </button>
 
         {/* Room cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+        <div className="vs-rooms-grid">
           {rooms.slice(start, start + visible).map((room) => (
             <Link
               key={room.slug}
               to={`https://direct-book.com/properties/velvetsuites`}
-              style={{
-                background: '#fff',
-                boxShadow: '0 2px 12px rgba(0,0,0,0.07)',
-                display: 'block',
-                textDecoration: 'none',
-                color: 'inherit',
-                transition: 'transform 0.3s, box-shadow 0.3s',
-                cursor: 'pointer',
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 28px rgba(0,0,0,0.13)';
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.transform = 'none';
-                e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.07)';
-              }}
+              className="vs-room-card"
             >
               {/* Image */}
-              <div style={{ position: 'relative', height: '240px', overflow: 'hidden' }}>
+              <div className="vs-room-img-wrap">
                 <img
                   src={room.image}
                   alt={room.name}
                   loading="lazy"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', transition: 'transform 0.6s' }}
                 />
- 
               </div>
 
               {/* Info */}
-              <div style={{ padding: '1.25rem 1.25rem 1.5rem' }}>
-                <h3 style={{
-                  fontFamily: "'Marcellus', serif",
-                  fontSize: '1.3rem',
-                  fontWeight: 400,
-                  color: '#111',
-                  margin: '0 0 0.75rem',
-                }}>{room.name}</h3>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 1.2rem', fontFamily: "'Lato', sans-serif", fontSize: '0.82rem', color: '#555' }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+              <div className="vs-room-info">
+                <h3 className="vs-room-name">{room.name}</h3>
+                <div className="vs-room-specs">
+                  <span className="vs-room-spec">
                     <IconExpand /> {room.size}
                   </span>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                  <span className="vs-room-spec">
                     <IconGuests /> {room.guests} Guest{room.guests > 1 ? 's' : ''}
                   </span>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', width: '100%', marginTop: '0.25rem' }}>
+                  <span className="vs-room-spec" style={{ width: '100%', marginTop: '0.25rem' }}>
                     <IconBed /> {room.beds}
                   </span>
                 </div>
@@ -197,27 +147,7 @@ export default function VelvetRooms() {
           onClick={() => setStart(s => Math.min(maxStart, s + 1))}
           disabled={start >= maxStart}
           aria-label="Next rooms"
-          style={{
-            position: 'absolute',
-            top: '45%',
-            right: 0,
-            transform: 'translateY(-50%)',
-            width: '52px',
-            height: '52px',
-            borderRadius: '50%',
-            background: '#6B0000',
-            color: '#fff',
-            border: 'none',
-            cursor: start >= maxStart ? 'default' : 'pointer',
-            opacity: start >= maxStart ? 0.4 : 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '1.8rem',
-            lineHeight: 1,
-            zIndex: 10,
-            transition: 'background 0.2s',
-          }}
+          className="vs-slider-arrow right"
         >
           ›
         </button>

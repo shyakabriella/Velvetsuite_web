@@ -29,6 +29,12 @@ export default function VelvetNavbar({ currentPath }) {
     return () => { document.body.style.overflow = ''; };
   }, [open]);
 
+  useEffect(() => {
+    const handleToggle = () => setOpen(v => !v);
+    window.addEventListener('toggle-mobile-menu', handleToggle);
+    return () => window.removeEventListener('toggle-mobile-menu', handleToggle);
+  }, []);
+
   const handleNav = (e, to) => {
     e.preventDefault();
     setOpen(false);
@@ -38,63 +44,35 @@ export default function VelvetNavbar({ currentPath }) {
   return (
     <>
       {/* ══ NAVBAR ══ */}
-      <header style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        zIndex: 100,
-        background: scrolled ? '#3b0404' : 'transparent',
-        borderBottom: scrolled ? 'none' : '1px solid rgba(255, 255, 255, 0.15)',
-        transition: 'background 0.3s ease, border-color 0.3s ease',
-        minHeight: '140px',
+      <header className={`vs-navbar ${scrolled ? 'scrolled' : ''}`} style={{
+        minHeight: 'clamp(80px, 14vw, 140px)',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        background: scrolled ? '#3b0404' : 'transparent',
+        borderBottom: scrolled ? 'none' : '1px solid rgba(255, 255, 255, 0.15)'
       }}>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          padding: '0 2.5rem',
-          maxWidth: '1700px',
-          width: '100%',
-          margin: '0 auto',
-          position: 'relative',
-        }}>
+        <div className="vs-navbar-inner" style={{ position: 'relative', width: '100%' }}>
 
           {/* ── LEFT: hamburger, then nav links ── */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', flex: 1 }}>
 
-            {/* Hamburger icon — 2 thin lines */}
+            {/* Hamburger icon */}
             <button
               aria-label={open ? 'Close menu' : 'Open menu'}
               aria-expanded={open}
               onClick={() => setOpen(v => !v)}
-              style={{
-                background: 'none',
-                border: 'none',
-                cursor: 'pointer',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '8px',
-                padding: 0,
-                width: 'fit-content',
-              }}
+              className="vs-hamburger"
             >
               <span style={{
-                display: 'block', width: '32px', height: '1px', background: '#fff',
-                transition: 'transform 0.3s',
                 transform: open ? 'translateY(4.5px) rotate(45deg)' : 'none',
               }} />
               <span style={{
-                display: 'block', width: '32px', height: '1px', background: '#fff',
-                transition: 'transform 0.3s',
                 transform: open ? 'translateY(-4.5px) rotate(-45deg)' : 'none',
               }} />
             </button>
 
             {/* Desktop nav links */}
-            <nav style={{ display: 'flex', gap: '2.5rem' }}>
+            <nav className="vs-nav-links">
               {navLinks.map(l => {
                 const active = currentPath === l.to;
                 return (
@@ -102,21 +80,7 @@ export default function VelvetNavbar({ currentPath }) {
                     key={l.to}
                     href={l.to}
                     onClick={e => handleNav(e, l.to)}
-                    style={{
-                      fontFamily: "'Lato', sans-serif",
-                      fontSize: '12px',
-                      fontWeight: 700,
-                      letterSpacing: '0.12em',
-                      textTransform: 'uppercase',
-                      color: '#fff',
-                      textDecoration: 'none',
-                      paddingBottom: '6px',
-                      borderBottom: active ? '1px solid #fff' : '1px solid transparent',
-                      transition: 'border-color 0.2s',
-                      whiteSpace: 'nowrap',
-                    }}
-                    onMouseEnter={e => { if (!active) e.currentTarget.style.borderBottomColor = 'rgba(255,255,255,0.6)'; }}
-                    onMouseLeave={e => { if (!active) e.currentTarget.style.borderBottomColor = 'transparent'; }}
+                    className={`vs-nav-link ${active ? 'active' : ''}`}
                   >
                     {l.label}
                   </a>
@@ -142,41 +106,21 @@ export default function VelvetNavbar({ currentPath }) {
             <img
               src="/homepageimgs/cropped-Velvet-.png"
               alt="Velvet Suites Logo"
-              style={{ height: '120px', width: 'auto', objectFit: 'contain', display: 'block' }}
+              style={{ height: 'clamp(60px, 12vw, 120px)', width: 'auto', objectFit: 'contain', display: 'block' }}
             />
           </a>
 
           {/* ── RIGHT: tel + reserve button ── */}
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '2.5rem',
-            flex: 1,
-            justifyContent: 'flex-end',
-          }}>
-            <span style={{
-              fontFamily: "'Lato', sans-serif",
-              fontSize: '13px',
-              color: '#fff',
-              whiteSpace: 'nowrap',
-            }}>Tel: +250 781 423 080</span>
+          <div className="vs-nav-right" style={{ flex: 1, justifyContent: 'flex-end' }}>
+            <span className="vs-nav-tel">Tel: +250 781 423 080</span>
 
             <a
               href="/stays"
               onClick={e => handleNav(e, '/stays')}
+              className="vs-reserve-btn"
               style={{
-                fontFamily: "'Lato', sans-serif",
-                fontSize: '12px',
                 color: scrolled ? '#111' : '#fff',
                 background: scrolled ? '#fff' : 'transparent',
-                border: '1px solid #fff',
-                padding: '0.6rem 1.6rem',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.5rem',
-                transition: 'all 0.3s ease',
-                whiteSpace: 'nowrap',
               }}
               onMouseEnter={e => { 
                   if (!scrolled) {
@@ -201,61 +145,29 @@ export default function VelvetNavbar({ currentPath }) {
       </header>
 
       {/* ══ MOBILE DRAWER ══ */}
-      {open && (
-        <div style={{
-          position: 'fixed',
-          top: '220px',
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background: 'rgba(30,0,0,0.97)',
-          zIndex: 99,
-          overflowY: 'auto',
-          padding: '1.5rem 2.5rem 3rem',
-          borderTop: '1px solid rgba(255,255,255,0.12)',
-        }}>
-          {navLinks.map(l => (
-            <a
-              key={l.to}
-              href={l.to}
-              onClick={e => handleNav(e, l.to)}
-              style={{
-                display: 'block',
-                fontFamily: "'Lato', sans-serif",
-                fontSize: '1.2rem',
-                fontWeight: 700,
-                letterSpacing: '0.12em',
-                textTransform: 'uppercase',
-                color: currentPath === l.to ? '#c9a84c' : '#fff',
-                textDecoration: 'none',
-                padding: '1rem 0',
-                borderBottom: '1px solid rgba(255,255,255,0.1)',
-                transition: 'color 0.2s',
-              }}
-            >
-              {l.label}
-            </a>
-          ))}
+      <div className={`vs-mobile-drawer ${open ? 'open' : ''}`} style={{ top: 'clamp(80px, 14vw, 140px)', background: 'rgba(30,0,0,0.97)' }}>
+        {navLinks.map(l => (
           <a
-            href="/stays"
-            onClick={e => handleNav(e, '/stays')}
+            key={l.to}
+            href={l.to}
+            onClick={e => handleNav(e, l.to)}
+            className="vs-mobile-link"
             style={{
-              display: 'block',
-              fontFamily: "'Lato', sans-serif",
-              fontSize: '1.2rem',
-              fontWeight: 700,
-              letterSpacing: '0.12em',
-              textTransform: 'uppercase',
-              color: '#c9a84c',
-              textDecoration: 'none',
-              padding: '1rem 0',
-              marginTop: '0.5rem',
+              color: currentPath === l.to ? '#c9a84c' : '#fff',
             }}
           >
-            Reserve Now →
+            {l.label}
           </a>
-        </div>
-      )}
+        ))}
+        <a
+          href="/stays"
+          onClick={e => handleNav(e, '/stays')}
+          className="vs-mobile-link"
+          style={{ color: '#c9a84c', marginTop: '0.5rem' }}
+        >
+          Reserve Now →
+        </a>
+      </div>
     </>
   );
 }

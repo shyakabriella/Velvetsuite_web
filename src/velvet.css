@@ -203,6 +203,10 @@
   .vs-hamburger { display: flex; }
 }
 
+@media (max-width: 600px) {
+  .vs-nav-right .vs-reserve-btn { display: none; }
+}
+
 /* ══════════════════════════════════════
    HERO SECTION
 ══════════════════════════════════════ */
