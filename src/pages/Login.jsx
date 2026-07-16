@@ -1,29 +1,44 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Eye, EyeOff, Leaf, Lock, Mail, AlertCircle, Star } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { looLogo } from '../lib/assets';
+import { Eye, EyeOff, Lock, Mail, AlertCircle, Star, Hotel, Sparkles } from 'lucide-react';
 import heroImg from '../Assets/p1.jpg';
 import nightImg from '../Assets/night view.avif';
 
 const SLIDES = [heroImg, nightImg];
 
+const COLORS = {
+  primary: '#8B6B4D',
+  secondary: '#C4A882',
+  accent: '#D4AF37',
+  dark: '#1A0F0A',
+  gradientStart: '#2C1810',
+  gradientEnd: '#4A2C1A',
+};
+
+const API_URL = (import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api").replace(/\/$/, "");
+
 export default function Login() {
-  const { login, loading, error, setError, user } = useAuth();
   const navigate = useNavigate();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('admin@velvetsuites.com');
+  const [password, setPassword] = useState('password123');
   const [showPass, setShowPass] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [slideIdx, setSlideIdx] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  // Redirect if already logged in
+  // Check if already logged in - redirect immediately
   useEffect(() => {
     setMounted(true);
-    if (user) navigate('/dashboard', { replace: true });
-  }, [user, navigate]);
+    const token = sessionStorage.getItem('token') || sessionStorage.getItem('auth_token');
+    const user = sessionStorage.getItem('user');
+    console.log('Login page - token:', !!token, 'user:', !!user);
+    if (token && user) {
+      console.log('Already logged in, redirecting to dashboard');
+      navigate('/dashboard', { replace: true });
+    }
+  }, [navigate]);
 
-  // Auto-slide the hero image
   useEffect(() => {
     const t = setInterval(() => setSlideIdx((i) => (i + 1) % SLIDES.length), 6000);
     return () => clearInterval(t);
@@ -32,14 +47,48 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
-    const ok = await login(email, password);
-    if (ok) navigate('/dashboard', { replace: true });
+    setLoading(true);
+
+    try {
+      console.log('Attempting login to:', `${API_URL}/login`);
+
+      const response = await fetch(`${API_URL}/login`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await response.json();
+      console.log('Login response:', data);
+
+      if (data.success) {
+        // Store everything in sessionStorage
+        sessionStorage.setItem('token', data.data.token);
+        sessionStorage.setItem('auth_token', data.data.token);
+        sessionStorage.setItem('user', JSON.stringify(data.data.user));
+        
+        console.log('Login successful, redirecting to dashboard');
+        // Force navigation
+        window.location.href = '/dashboard';
+      } else {
+        setError(data.message || 'Login failed. Please check your credentials.');
+      }
+    } catch (err) {
+      console.error('Login error:', err);
+      setError('Network error. Please make sure the backend server is running.');
+    } finally {
+      setLoading(false);
+    }
   };
 
+  // ... rest of your Login component (the JSX)
   return (
     <div
       className={`flex min-h-screen transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'}`}
-      style={{ background: '#0a1a0d' }}
+      style={{ background: `linear-gradient(135deg, ${COLORS.gradientStart} 0%, ${COLORS.gradientEnd} 50%, ${COLORS.dark} 100%)` }}
     >
       {/* ── LEFT: Hero image panel ── */}
       <div className="relative hidden lg:flex lg:w-[55%] xl:w-[60%] flex-col overflow-hidden">
@@ -60,25 +109,30 @@ export default function Login() {
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(135deg, rgba(9,31,13,0.65) 0%, rgba(9,31,13,0.2) 50%, rgba(0,0,0,0.55) 100%)',
+              'linear-gradient(135deg, rgba(26,15,10,0.8) 0%, rgba(74,44,26,0.4) 50%, rgba(26,15,10,0.85) 100%)',
           }}
         />
-        {/* Bottom fade for text legibility */}
         <div
           className="absolute inset-x-0 bottom-0 h-72"
           style={{
-            background: 'linear-gradient(to top, rgba(9,31,13,0.9) 0%, transparent 100%)',
+            background: 'linear-gradient(to top, rgba(26,15,10,0.95) 0%, transparent 100%)',
           }}
         />
 
+        {/* Gold decorative line */}
+        <div className="absolute top-0 left-0 right-0 h-1" style={{ background: `linear-gradient(90deg, ${COLORS.accent}, ${COLORS.secondary}, ${COLORS.accent})` }} />
+
         {/* Logo top-left */}
         <div className="relative z-10 flex items-center gap-3 p-10">
-          <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm">
-            <img src={looLogo} alt="Akagera Park Inn" className="h-9 w-9 object-contain" />
+          <div 
+            className="flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 backdrop-blur-sm"
+            style={{ background: 'rgba(139,107,77,0.3)' }}
+          >
+            <Hotel className="h-6 w-6" style={{ color: COLORS.accent }} />
           </div>
           <div className="flex flex-col leading-none">
-            <span className="font-display text-base font-semibold text-sand-50">Akagera Park Inn</span>
-            <span className="text-[10px] uppercase tracking-[0.2em] text-sand-200/70 mt-0.5">Rwanda · East Africa</span>
+            <span className="font-display text-base font-semibold text-white">VELVET SUITES</span>
+            <span className="text-[10px] uppercase tracking-[0.2em] text-white/60 mt-0.5">Kigali · Rwanda</span>
           </div>
         </div>
 
@@ -87,27 +141,19 @@ export default function Login() {
           {/* Star rating */}
           <div className="flex items-center gap-1 mb-4">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" />
+              <Star key={i} className="h-4 w-4" style={{ fill: COLORS.accent, color: COLORS.accent }} />
             ))}
-            <span className="ml-2 text-sm font-medium text-sand-200/80">Akagera Village, Rwanda</span>
+            <span className="ml-2 text-sm font-medium text-white/70">Luxury Boutique Hotel</span>
           </div>
 
-          <h2 className="font-display text-3xl xl:text-4xl font-semibold text-sand-50 leading-tight">
-            Where the wild meets<br />
-            <span
-              className="italic"
-              style={{
-                background: 'linear-gradient(90deg, #8ec48e, #62a862)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-              }}
-            >
-              warm hospitality.
-            </span>
+          <h2 className="font-display text-3xl xl:text-4xl font-semibold text-white leading-tight">
+            Welcome to
+            <br />
+            <span style={{ color: COLORS.accent }}>Velvet Suites</span>
           </h2>
-          <p className="mt-3 text-sm text-sand-200/70 leading-relaxed max-w-sm">
-            Calm stays just minutes from Akagera National Park — pool, garden,
-            restaurant &amp; 24-hour reception.
+          <p className="mt-3 text-sm text-white/60 leading-relaxed max-w-sm">
+            Experience unparalleled comfort and elegance at Velvet Suites,
+            your premier destination for luxury hospitality in the heart of Kigali.
           </p>
 
           {/* Slide dots */}
@@ -122,7 +168,7 @@ export default function Login() {
                   width: i === slideIdx ? '24px' : '8px',
                   height: '8px',
                   borderRadius: '4px',
-                  background: i === slideIdx ? '#62a862' : 'rgba(255,255,255,0.3)',
+                  background: i === slideIdx ? COLORS.accent : 'rgba(255,255,255,0.3)',
                 }}
               />
             ))}
@@ -133,49 +179,58 @@ export default function Login() {
       {/* ── RIGHT: Login form panel ── */}
       <div
         className="relative flex flex-1 flex-col items-center justify-center px-6 py-12 sm:px-10 lg:px-12 xl:px-16"
-        style={{ background: '#0c1f0e' }}
+        style={{ background: COLORS.dark }}
       >
         {/* Subtle radial glow */}
         <div
-          className="pointer-events-none absolute top-0 right-0 h-80 w-80 opacity-30"
+          className="pointer-events-none absolute top-0 right-0 h-80 w-80 opacity-20"
           style={{
-            background: 'radial-gradient(circle, rgba(35,88,37,0.4) 0%, transparent 70%)',
+            background: `radial-gradient(circle, ${COLORS.primary} 0%, transparent 70%)`,
           }}
         />
 
-        {/* Mobile logo (visible only on small screens) */}
+        {/* Gold decorative line - top */}
+        <div className="absolute top-0 left-0 right-0 h-1" style={{ background: `linear-gradient(90deg, ${COLORS.accent}, ${COLORS.secondary}, ${COLORS.accent})` }} />
+
+        {/* Mobile logo */}
         <div className="lg:hidden mb-8 flex flex-col items-center gap-3">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-forest-700/30 border border-forest-500/20">
-            <img src={looLogo} alt="Akagera Park Inn" className="h-10 w-10 object-contain" />
+          <div 
+            className="flex h-14 w-14 items-center justify-center rounded-2xl"
+            style={{ background: 'rgba(139,107,77,0.3)', border: `1px solid ${COLORS.primary}40` }}
+          >
+            <Hotel className="h-7 w-7" style={{ color: COLORS.accent }} />
           </div>
-          <p className="font-display text-lg font-semibold text-sand-50">Akagera Park Inn</p>
+          <p className="font-display text-lg font-semibold text-white">VELVET SUITES</p>
         </div>
 
         {/* Card */}
         <div className="relative z-10 w-full max-w-sm">
           {/* Header */}
           <div className="mb-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-forest-400 mb-2">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: COLORS.accent }}>
               Admin Portal
             </p>
-            <h1 className="font-display text-2xl sm:text-3xl font-semibold text-sand-50">
+            <h1 className="font-display text-2xl sm:text-3xl font-semibold text-white">
               Welcome back
             </h1>
-            <p className="mt-2 text-sm text-sand-400/70">
-              Sign in to manage your hotel dashboard.
+            <p className="mt-2 text-sm text-white/50">
+              Sign in to manage your Velvet Suites dashboard.
             </p>
           </div>
 
-          {/* Demo hint */}
-          <div className="mb-7 rounded-xl border border-forest-600/25 bg-forest-900/40 px-4 py-3">
-            <p className="text-xs text-forest-300/80 leading-relaxed">
-              <span className="font-semibold text-forest-200">Demo:</span>
-              {' '}admin@akageraparkinn.com
-              <br />
-              <span className="font-semibold text-forest-200">Password:</span>
-              {' '}akagera2025
-            </p>
-          </div>
+          {/* Error Message */}
+          {error && (
+            <div 
+              className="mb-5 flex items-start gap-2.5 rounded-xl px-4 py-3"
+              style={{ 
+                background: 'rgba(220,38,38,0.15)', 
+                border: '1px solid rgba(220,38,38,0.3)'
+              }}
+            >
+              <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" style={{ color: '#ef4444' }} />
+              <p className="text-sm text-red-400 leading-snug">{error}</p>
+            </div>
+          )}
 
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-5" noValidate>
@@ -183,12 +238,12 @@ export default function Login() {
             <div>
               <label
                 htmlFor="login-email"
-                className="mb-2 block text-xs font-semibold uppercase tracking-wider text-sand-400/70"
+                className="mb-2 block text-xs font-semibold uppercase tracking-wider text-white/50"
               >
                 Email address
               </label>
               <div className="relative">
-                <Mail className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-sand-500/50" />
+                <Mail className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-white/30" />
                 <input
                   id="login-email"
                   type="email"
@@ -196,8 +251,13 @@ export default function Login() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@akageraparkinn.com"
-                  className="w-full rounded-xl border border-white/10 bg-white/5 py-3.5 pl-11 pr-4 text-sm text-sand-50 placeholder-sand-500/40 transition-all duration-200 focus:border-forest-500/60 focus:bg-white/[0.07] focus:outline-none focus:ring-2 focus:ring-forest-500/20"
+                  placeholder="Enter your email"
+                  className="w-full rounded-xl border border-white/10 bg-white/5 py-3.5 pl-11 pr-4 text-sm text-white placeholder-white/30 transition-all duration-200 focus:outline-none focus:ring-2"
+                  style={{ 
+                    borderColor: 'rgba(255,255,255,0.1)',
+                  }}
+                  onFocus={(e) => e.target.style.borderColor = COLORS.accent}
+                  onBlur={(e) => e.target.style.borderColor = 'rgba(255,255,255,0.1)'}
                 />
               </div>
             </div>
@@ -206,12 +266,12 @@ export default function Login() {
             <div>
               <label
                 htmlFor="login-password"
-                className="mb-2 block text-xs font-semibold uppercase tracking-wider text-sand-400/70"
+                className="mb-2 block text-xs font-semibold uppercase tracking-wider text-white/50"
               >
                 Password
               </label>
               <div className="relative">
-                <Lock className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-sand-500/50" />
+                <Lock className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-white/30" />
                 <input
                   id="login-password"
                   type={showPass ? 'text' : 'password'}
@@ -219,39 +279,35 @@ export default function Login() {
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="••••••••••"
-                  className="w-full rounded-xl border border-white/10 bg-white/5 py-3.5 pl-11 pr-12 text-sm text-sand-50 placeholder-sand-500/40 transition-all duration-200 focus:border-forest-500/60 focus:bg-white/[0.07] focus:outline-none focus:ring-2 focus:ring-forest-500/20"
+                  placeholder="Enter your password"
+                  className="w-full rounded-xl border border-white/10 bg-white/5 py-3.5 pl-11 pr-12 text-sm text-white placeholder-white/30 transition-all duration-200 focus:outline-none focus:ring-2"
+                  style={{ 
+                    borderColor: 'rgba(255,255,255,0.1)',
+                  }}
+                  onFocus={(e) => e.target.style.borderColor = COLORS.accent}
+                  onBlur={(e) => e.target.style.borderColor = 'rgba(255,255,255,0.1)'}
                 />
                 <button
                   type="button"
                   onClick={() => setShowPass((v) => !v)}
                   aria-label={showPass ? 'Hide password' : 'Show password'}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-sand-500/50 transition-colors hover:text-sand-300"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-white/30 transition-colors hover:text-white/60"
                 >
                   {showPass ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                 </button>
               </div>
             </div>
 
-            {/* Error */}
-            {error && (
-              <div className="flex items-start gap-2.5 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3">
-                <AlertCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-400" />
-                <p className="text-sm text-red-300 leading-snug">{error}</p>
-              </div>
-            )}
-
             {/* Submit */}
             <button
               type="submit"
-              id="login-submit"
               disabled={loading}
-              className="relative mt-1 w-full overflow-hidden rounded-xl py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-all duration-300 disabled:opacity-60"
+              className="relative mt-1 w-full overflow-hidden rounded-xl py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-all duration-300 disabled:opacity-60 hover:opacity-90"
               style={{
                 background: loading
-                  ? 'rgba(35,88,37,0.6)'
-                  : 'linear-gradient(135deg, #235825 0%, #2e7030 60%, #235825 100%)',
-                boxShadow: loading ? 'none' : '0 6px 24px rgba(35,88,37,0.45)',
+                  ? 'rgba(139,107,77,0.6)'
+                  : `linear-gradient(135deg, ${COLORS.primary} 0%, ${COLORS.secondary} 60%, ${COLORS.primary} 100%)`,
+                boxShadow: loading ? 'none' : `0 6px 24px ${COLORS.primary}60`,
               }}
             >
               {loading ? (
@@ -274,15 +330,15 @@ export default function Login() {
 
           {/* Divider */}
           <div className="mt-8 flex items-center gap-3">
-            <span className="h-px flex-1 bg-white/8" />
-            <Leaf className="h-3.5 w-3.5 text-forest-600/60" />
-            <span className="h-px flex-1 bg-white/8" />
+            <span className="h-px flex-1" style={{ background: 'rgba(255,255,255,0.08)' }} />
+            <Sparkles className="h-3.5 w-3.5" style={{ color: COLORS.accent }} />
+            <span className="h-px flex-1" style={{ background: 'rgba(255,255,255,0.08)' }} />
           </div>
 
           {/* Footer links */}
-          <p className="mt-6 text-center text-xs text-sand-500/50">
-            © {new Date().getFullYear()} Akagera Park Inn ·{' '}
-            <a href="/" className="text-forest-400 hover:text-forest-300 transition-colors">
+          <p className="mt-6 text-center text-xs text-white/30">
+            © {new Date().getFullYear()} Velvet Suites ·{' '}
+            <a href="/" className="transition-colors" style={{ color: COLORS.accent }}>
               View website
             </a>
           </p>

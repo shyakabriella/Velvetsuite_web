@@ -1,4 +1,4 @@
-import { Route, Routes, useParams } from "react-router-dom";
+import { Route, Routes, useParams, Navigate } from "react-router-dom";
 
 import Layouts from "../components/Layouts";
 import Home from "../pages/Home";
@@ -14,7 +14,7 @@ import Stories from "../pages/Stories";
 import Book from "../pages/Book";
 import Policies from "../pages/Policies";
 import NotFound from "../pages/NotFound";
-import Login from "../pages/Login";
+import Login from "../pages/Login";  // ← Updated: Login is in pages folder
 import Dashboard from "../pages/Dashboard";
 
 const SuiteDetailWrapper = () => {
@@ -28,14 +28,30 @@ const ExperienceDetailWrapper = () => {
 };
 
 export default function AppRoutes() {
+  // Check if user is logged in
+  const token = sessionStorage.getItem("token") || sessionStorage.getItem("auth_token");
+
   return (
     <Routes>
-      {/* Stand-alone pages (no navbar/footer) */}
+      {/* Login page - always accessible */}
       <Route path="/login" element={<Login />} />
-      <Route path="/dashboard/*" element={<Dashboard />} />
 
-      {/* Public site with Navbar + Footer */}
-      <Route path="/" element={<Layouts />}>
+      {/* Dashboard - only if logged in */}
+      <Route
+        path="/admin/*"
+        element={
+          token ? <Dashboard /> : <Navigate to="/login" replace />
+        }
+      />
+
+      {/* Redirect root to admin if logged in, else home */}
+      <Route
+        path="/"
+        element={
+          token ? <Navigate to="/admin" replace /> : <Layouts />
+        }
+      >
+        {/* Public routes */}
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="stays" element={<Stays />} />
@@ -54,4 +70,3 @@ export default function AppRoutes() {
     </Routes>
   );
 }
-
