@@ -1,0 +1,417 @@
+/* Dining.css - Velvet Theme */
+.vs-dining-page {
+  background-color: #faf9f7;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1c1a18;
+}
+
+.vs-dining-hero {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  min-height: 400px;
+  background-image: url('/images/dining_menu.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.vs-dining-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(28, 26, 24, 0.5);
+  z-index: 1;
+}
+
+.vs-dining-hero-title {
+  position: relative;
+  z-index: 2;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.vs-dining-hero-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c9a84c;
+}
+
+/* Base structural classes */
+.vs-dining-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 1024px) {
+  .vs-dining-container {
+    grid-template-columns: 1fr 420px;
+    align-items: start;
+  }
+}
+
+.vs-panel {
+  background: #fff;
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  margin-bottom: 2rem;
+}
+
+.vs-panel-inset {
+  background: #faf9f7;
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid #f0ede8;
+  margin-bottom: 1.5rem;
+}
+
+/* Form fields */
+.vs-field {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #e0dbd3;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  background: #fff;
+  color: #1c1a18;
+  transition: all 0.3s ease;
+}
+.vs-field:focus {
+  outline: none;
+  border-color: #c9a84c;
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.1);
+}
+.vs-field-icon-wrap {
+  position: relative;
+}
+.vs-field-icon-wrap svg {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+.vs-field-with-icon {
+  padding-left: 2.8rem;
+}
+
+.vs-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Category Pills */
+.vs-category-pill {
+  border: 1px solid #e0dbd3;
+  background: #fff;
+  color: #555;
+  border-radius: 99px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.vs-category-pill:hover {
+  border-color: #c9a84c;
+  color: #c9a84c;
+}
+.vs-category-pill.active {
+  background: #1c1a18;
+  border-color: #1c1a18;
+  color: #fff;
+}
+
+/* Buttons */
+.vs-btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #1c1a18;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 15px rgba(28, 26, 24, 0.15);
+  width: 100%;
+}
+.vs-btn-primary:hover:not(:disabled) {
+  background-color: #c9a84c;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(201, 168, 76, 0.25);
+}
+.vs-btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.vs-btn-outline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #1c1a18;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 99px;
+  border: 2px solid #1c1a18;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.vs-btn-outline:hover:not(:disabled) {
+  background-color: #1c1a18;
+  color: #fff;
+}
+.vs-btn-outline:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Menu Item Card */
+.vs-menu-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  margin-bottom: 1.5rem;
+}
+.vs-menu-card:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+@media (min-width: 600px) {
+  .vs-menu-card {
+    flex-direction: row;
+  }
+}
+.vs-menu-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+@media (min-width: 600px) {
+  .vs-menu-card-img {
+    width: 220px;
+    height: auto;
+  }
+}
+.vs-menu-card-content {
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.vs-menu-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.vs-menu-card-category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #c9a84c;
+  margin-bottom: 0.5rem;
+}
+.vs-menu-card-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1c1a18;
+  margin: 0;
+}
+.vs-menu-card-price {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1c1a18;
+}
+.vs-menu-card-desc {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.6;
+  margin-top: 1rem;
+  flex: 1;
+}
+.vs-menu-card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f0ede8;
+}
+
+/* Quantity Control */
+.vs-qty-ctrl {
+  display: inline-flex;
+  align-items: center;
+  background: #faf9f7;
+  border-radius: 99px;
+  padding: 0.35rem;
+}
+.vs-qty-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  color: #1c1a18;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: all 0.2s ease;
+}
+.vs-qty-btn:hover {
+  background: #1c1a18;
+  color: #fff;
+}
+.vs-qty-val {
+  min-width: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Sidebar Order */
+.vs-sidebar {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 6rem;
+  overflow: hidden;
+}
+.vs-sidebar-header {
+  background: #1c1a18;
+  color: #fff;
+  padding: 1.8rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.vs-sidebar-header-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: 500;
+}
+.vs-sidebar-body {
+  padding: 2rem;
+}
+.vs-cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px dashed #e0dbd3;
+}
+.vs-cart-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.vs-cart-item-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.vs-cart-item-info {
+  flex: 1;
+}
+.vs-cart-item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1c1a18;
+}
+.vs-cart-item-price {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.2rem;
+}
+.vs-cart-item-remove {
+  color: #d32f2f;
+  background: rgba(211, 47, 47, 0.1);
+  border: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.vs-cart-item-remove:hover {
+  background: #d32f2f;
+  color: #fff;
+}
+.vs-order-summary {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #1c1a18;
+}
+.vs-order-summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+.vs-order-summary-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #e0dbd3;
+  color: #1c1a18;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}

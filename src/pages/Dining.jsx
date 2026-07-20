@@ -29,18 +29,17 @@ import {
   submitRestaurantOrder,
   submitRestaurantReservation,
 } from '../lib/restaurantApi';
+import './Dining.css';
 
-const QR_COLOR = '#235825';
+const QR_COLOR = '#1c1a18';
 const PLACEHOLDER =
   'data:image/svg+xml,' +
   encodeURIComponent(
     '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200"><rect fill="#f3ede0" width="320" height="200"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#8c6540" font-size="14" font-family="sans-serif">No image</text></svg>',
   );
 
-const panelClass =
-  'rounded-2xl border border-forest-900/10 bg-white p-4 shadow-soft sm:p-5';
-const insetPanelClass =
-  'rounded-2xl border border-forest-900/10 bg-sand-100/70 p-4';
+const panelClass = 'vs-panel';
+const insetPanelClass = 'vs-panel-inset';
 
 function todayIso() {
   return new Date().toISOString().split('T')[0];
@@ -54,21 +53,18 @@ function defaultTime() {
 
 function OrderLine({ label, value }) {
   return (
-    <div className="flex items-center justify-between gap-3">
-      <div className="text-forest-700/70">{label}</div>
-      <div className="font-medium text-forest-950">{value}</div>
+    <div className="vs-order-summary-row">
+      <div>{label}</div>
+      <div style={{ fontWeight: 600, color: '#1c1a18' }}>{value}</div>
     </div>
   );
 }
 
 function IconField({ icon: Icon, className = '', ...props }) {
   return (
-    <div className="relative">
-      <Icon
-        className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-forest-600"
-        strokeWidth={1.5}
-      />
-      <input {...props} className={`field pl-9 ${className}`} />
+    <div className="vs-field-icon-wrap">
+      <Icon strokeWidth={1.5} size={18} />
+      <input {...props} className={`vs-field vs-field-with-icon ${className}`} />
     </div>
   );
 }
@@ -77,88 +73,61 @@ function MenuItemCard({ item, qty, onAdd, onSub, menuUrl }) {
   const [showQr, setShowQr] = useState(false);
 
   return (
-    <article
-      id={`menu-item-${item.id}`}
-      className="overflow-hidden rounded-2xl border border-forest-900/10 bg-white shadow-soft transition-shadow hover:shadow-lift"
-    >
-      <div className="flex flex-col sm:flex-row">
-        <img
-          src={item.image || PLACEHOLDER}
-          alt={item.name}
-          className="h-44 w-full object-cover sm:h-auto sm:w-28 sm:min-h-[7rem] sm:max-w-[7rem] sm:shrink-0"
-          loading="lazy"
-        />
-        <div className="flex min-w-0 flex-1 flex-col p-4 sm:p-3">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-            <div className="min-w-0">
-              <p className="text-[10px] font-semibold uppercase tracking-wider text-forest-600">
-                {item.category}
-              </p>
-              <h4 className="mt-1 font-display text-lg font-semibold leading-snug text-forest-950">
-                {item.name}
-              </h4>
-            </div>
-            <div className="shrink-0 font-display text-lg font-semibold text-forest-700">
-              {formatRwf(item.price)}
-            </div>
+    <article id={`menu-item-${item.id}`} className="vs-menu-card">
+      <img
+        src={item.image || PLACEHOLDER}
+        alt={item.name}
+        className="vs-menu-card-img"
+        loading="lazy"
+      />
+      <div className="vs-menu-card-content">
+        <div className="vs-menu-card-header">
+          <div>
+            <div className="vs-menu-card-category">{item.category}</div>
+            <h4 className="vs-menu-card-title">{item.name}</h4>
           </div>
+          <div className="vs-menu-card-price">{formatRwf(item.price)}</div>
+        </div>
 
-          {item.desc && (
-            <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-forest-800/75 sm:line-clamp-2">
-              {item.desc}
-            </p>
-          )}
+        {item.desc && <p className="vs-menu-card-desc">{item.desc}</p>}
 
-          <div className="mt-auto flex flex-col gap-3 pt-4 sm:flex-row sm:items-center sm:justify-between">
-            <div className="inline-flex items-center gap-2">
-              <button
-                type="button"
-                onClick={onSub}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-forest-900/10 text-forest-800 transition-colors hover:bg-forest-700/10"
-                aria-label={`Remove one ${item.name}`}
-              >
-                <Minus className="h-4 w-4" strokeWidth={1.5} />
-              </button>
-              <span className="min-w-[1.5rem] text-center text-sm font-semibold text-forest-950">
-                {qty}
-              </span>
-              <button
-                type="button"
-                onClick={onAdd}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-forest-900/10 text-forest-800 transition-colors hover:bg-forest-700/10"
-                aria-label={`Add one ${item.name}`}
-              >
-                <Plus className="h-4 w-4" strokeWidth={1.5} />
-              </button>
-            </div>
-
-            <button
-              type="button"
-              onClick={() => setShowQr((value) => !value)}
-              className="self-start rounded-full border border-forest-700/30 px-3 py-1.5 text-xs font-medium uppercase tracking-wider text-forest-800 transition-colors hover:border-forest-700 hover:bg-forest-700/5 sm:self-auto"
-            >
-              {showQr ? 'Hide QR' : 'Show QR'}
+        <div className="vs-menu-card-actions">
+          <div className="vs-qty-ctrl">
+            <button type="button" onClick={onSub} className="vs-qty-btn" aria-label={`Remove one ${item.name}`}>
+              <Minus size={16} strokeWidth={2} />
+            </button>
+            <span className="vs-qty-val">{qty}</span>
+            <button type="button" onClick={onAdd} className="vs-qty-btn" aria-label={`Add one ${item.name}`}>
+              <Plus size={16} strokeWidth={2} />
             </button>
           </div>
 
-          {showQr && (
-            <div className="mt-4 flex flex-col items-start gap-3 border-t border-forest-900/10 pt-4 sm:flex-row sm:items-center">
-              <QRCodeSVG value={menuUrl} size={96} includeMargin fgColor={QR_COLOR} />
-              <div className="text-xs leading-relaxed text-forest-700/70">
-                Scan to open full menu
-                <br />
-                <a
-                  href={menuUrl}
-                  className="font-medium text-forest-700 underline-offset-2 hover:underline"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Open menu page
-                </a>
-              </div>
-            </div>
-          )}
+          <button
+            type="button"
+            onClick={() => setShowQr((value) => !value)}
+            style={{
+              background: 'transparent', border: '1px solid #1c1a18', color: '#1c1a18',
+              padding: '0.4rem 1rem', borderRadius: '99px', fontSize: '0.75rem',
+              fontWeight: 600, textTransform: 'uppercase', cursor: 'pointer', transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => { e.currentTarget.style.background = '#1c1a18'; e.currentTarget.style.color = '#fff'; }}
+            onMouseOut={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#1c1a18'; }}
+          >
+            {showQr ? 'Hide QR' : 'Show QR'}
+          </button>
         </div>
+
+        {showQr && (
+          <div style={{ marginTop: '1.5rem', paddingTop: '1.5rem', borderTop: '1px solid #f0ede8', display: 'flex', gap: '1rem', alignItems: 'center' }}>
+            <QRCodeSVG value={menuUrl} size={96} includeMargin fgColor={QR_COLOR} />
+            <div style={{ fontSize: '0.85rem', color: '#777', lineHeight: 1.6 }}>
+              Scan to open full menu<br />
+              <a href={menuUrl} target="_blank" rel="noreferrer" style={{ color: '#1c1a18', fontWeight: 600, textDecoration: 'underline' }}>
+                Open menu page
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </article>
   );
@@ -181,44 +150,54 @@ function CardPaymentModal({ open, total, onClose, onConfirm }) {
   }
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-forest-950/60 p-4 backdrop-blur-sm">
-      <form
-        onSubmit={handleConfirm}
-        className="w-full max-w-md rounded-3xl border border-forest-900/10 bg-sand-50 p-6 shadow-lift"
+    <div style={{ position: 'fixed', inset: 0, zIndex: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(8px)', padding: '1rem' }}>
+      <form 
+        onSubmit={handleConfirm} 
+        style={{ 
+          width: '100%', maxWidth: '420px', background: 'rgba(255, 255, 255, 0.95)', 
+          backdropFilter: 'blur(20px)', borderRadius: '28px', padding: '2.5rem', 
+          boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)', position: 'relative',
+          border: '1px solid rgba(255, 255, 255, 0.5)'
+        }}
       >
-        <h3 className="font-display text-2xl font-semibold text-forest-950">Pay now (demo)</h3>
-        <p className="mt-1 text-sm text-forest-800/75">Total: {formatRwf(total)}</p>
-        <div className="mt-4 space-y-3">
-          <input
-            value={cardNumber}
-            onChange={(e) => setCardNumber(e.target.value)}
-            placeholder="Card number"
-            className="field"
-            required
-          />
-          <div className="grid grid-cols-2 gap-3">
-            <input
-              value={expiry}
-              onChange={(e) => setExpiry(e.target.value)}
-              placeholder="MM/YY"
-              className="field"
-              required
-            />
-            <input
-              value={cvc}
-              onChange={(e) => setCvc(e.target.value)}
-              placeholder="CVC"
-              className="field"
-              required
-            />
+        <button 
+          type="button" 
+          onClick={onClose}
+          style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999', transition: 'color 0.2s' }}
+          onMouseOver={(e) => e.currentTarget.style.color = '#1c1a18'}
+          onMouseOut={(e) => e.currentTarget.style.color = '#999'}
+        >
+          ×
+        </button>
+
+        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '50px', height: '50px', borderRadius: '50%', background: '#faf9f7', color: '#c9a84c', marginBottom: '1rem' }}>
+            <CreditCard size={24} strokeWidth={1.5} />
+          </div>
+          <h3 style={{ fontFamily: "'Inter', sans-serif", fontSize: '1.4rem', fontWeight: 600, margin: '0 0 0.5rem', color: '#1c1a18', letterSpacing: '-0.02em' }}>Complete Payment</h3>
+          <p style={{ margin: 0, color: '#777', fontSize: '0.95rem' }}>Amount due: <strong style={{ color: '#1c1a18', fontSize: '1.1rem' }}>{formatRwf(total)}</strong></p>
+        </div>
+
+        <div style={{ display: 'grid', gap: '1.2rem' }}>
+          <div style={{ position: 'relative' }}>
+            <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>Card Number</label>
+            <input value={cardNumber} onChange={(e) => setCardNumber(e.target.value)} placeholder="0000 0000 0000 0000" style={{ width: '100%', padding: '0.9rem 1rem', borderRadius: '12px', border: '1px solid #e0dbd3', background: '#faf9f7', fontSize: '1rem', color: '#1c1a18', fontFamily: 'monospace' }} required />
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem' }}>
+            <div>
+              <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>Expiry</label>
+              <input value={expiry} onChange={(e) => setExpiry(e.target.value)} placeholder="MM/YY" style={{ width: '100%', padding: '0.9rem 1rem', borderRadius: '12px', border: '1px solid #e0dbd3', background: '#faf9f7', fontSize: '1rem', color: '#1c1a18', fontFamily: 'monospace', textAlign: 'center' }} required />
+            </div>
+            <div>
+              <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>CVC</label>
+              <input value={cvc} onChange={(e) => setCvc(e.target.value)} placeholder="123" type="password" maxLength={4} style={{ width: '100%', padding: '0.9rem 1rem', borderRadius: '12px', border: '1px solid #e0dbd3', background: '#faf9f7', fontSize: '1rem', color: '#1c1a18', fontFamily: 'monospace', textAlign: 'center' }} required />
+            </div>
           </div>
         </div>
-        <div className="mt-6 flex flex-col gap-2 sm:flex-row">
-          <button type="button" onClick={onClose} className="btn-outline flex-1 !py-2.5">
-            Cancel
-          </button>
-          <button type="submit" className="btn-primary flex-1 !py-2.5">
-            Pay
+
+        <div style={{ marginTop: '2.5rem' }}>
+          <button type="submit" className="vs-btn-primary" style={{ padding: '1.1rem', fontSize: '1.05rem', boxShadow: '0 10px 20px rgba(28, 26, 24, 0.2)' }}>
+            Pay {formatRwf(total)}
           </button>
         </div>
       </form>
@@ -470,60 +449,44 @@ export default function Dining() {
   }
 
   return (
-    <div className="min-h-screen bg-sand-50 bg-grain text-forest-950">
-      <div className="border-b border-forest-900/10 bg-forest-950 text-sand-50">
-        <div className="container-x flex items-center gap-3 py-5">
-          <span className="font-display text-lg font-semibold">{site.name}</span>
-          <span className="ml-auto text-sm text-sand-200/85">Restaurant & Bar</span>
+    <div className="vs-dining-page">
+      {/* Hero Section */}
+      <section className="vs-dining-hero">
+        <div className="vs-dining-hero-overlay" />
+        <div className="vs-dining-hero-title">
+          <span className="vs-dining-hero-subtitle">Dine with us</span>
+          Restaurant & Bar
         </div>
-      </div>
+      </section>
 
-      <header className="container-x py-10 sm:py-12">
-        <p className="eyebrow !text-forest-600">Dine with us</p>
-        <h1 className="mt-4 flex flex-col gap-3 font-display text-3xl font-medium leading-tight text-forest-950 sm:flex-row sm:items-center sm:text-4xl">
-          <span className="inline-flex items-center gap-3">
-            <UtensilsCrossed className="h-7 w-7 text-forest-700" strokeWidth={1.5} />
-            Restaurant — Order & Book
-          </span>
-        </h1>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-forest-800/80">
-          Choose from our menu, add a custom request, and either buy now or reserve a table.
-        </p>
-      </header>
-
-      <div className="container-x grid gap-6 pb-16 lg:grid-cols-[minmax(0,1fr)_minmax(280px,420px)] lg:items-start">
-        <div className="space-y-4">
+      <div className="vs-dining-container">
+        {/* Left Column (Search, Filters, Menu Items) */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+          
           <div className={panelClass}>
-            <div className="flex flex-col gap-4">
-              <div className="relative w-full">
-                <Search
-                  className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-forest-600"
-                  strokeWidth={1.5}
-                />
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <div className="vs-field-icon-wrap">
+                <Search size={18} strokeWidth={1.5} />
                 <input
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  className="field w-full pl-9"
+                  className="vs-field vs-field-with-icon"
                   placeholder="Search dishes..."
                 />
               </div>
 
-              <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-                <div className="inline-flex items-center gap-2 text-sm font-medium text-forest-700">
-                  <SlidersHorizontal className="h-4 w-4" strokeWidth={1.5} />
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.8rem', alignItems: 'center' }}>
+                <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', fontWeight: 600, color: '#555' }}>
+                  <SlidersHorizontal size={16} strokeWidth={1.5} />
                   Categories
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                   {categoryPills.map((category) => (
                     <button
                       key={category.id}
                       type="button"
                       onClick={() => setActiveCategory(category.id)}
-                      className={`rounded-full border px-3 py-1.5 text-xs font-medium uppercase tracking-wider transition-colors ${
-                        activeCategory === category.id
-                          ? 'border-forest-700 bg-forest-700 text-sand-50'
-                          : 'border-forest-700/25 text-forest-800 hover:border-forest-700/50'
-                      }`}
+                      className={`vs-category-pill ${activeCategory === category.id ? 'active' : ''}`}
                     >
                       {category.name}
                     </button>
@@ -534,64 +497,59 @@ export default function Dining() {
           </div>
 
           <div className={panelClass}>
-            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem' }}>
               <div>
-                <label className="field-label" htmlFor="reservation-date">
-                  Date
-                </label>
-                <div className="relative">
-                  <Calendar className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-forest-600" strokeWidth={1.5} />
+                <label className="vs-label" htmlFor="reservation-date">Date</label>
+                <div className="vs-field-icon-wrap">
+                  <Calendar size={18} strokeWidth={1.5} />
                   <input
                     id="reservation-date"
                     type="date"
                     value={date}
                     onChange={(e) => setDate(e.target.value)}
-                    className="field pl-9"
+                    className="vs-field vs-field-with-icon"
                   />
                 </div>
               </div>
               <div>
-                <label className="field-label" htmlFor="reservation-time">
-                  Time
-                </label>
-                <div className="relative">
-                  <Clock className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-forest-600" strokeWidth={1.5} />
+                <label className="vs-label" htmlFor="reservation-time">Time</label>
+                <div className="vs-field-icon-wrap">
+                  <Clock size={18} strokeWidth={1.5} />
                   <input
                     id="reservation-time"
                     type="time"
                     value={time}
                     onChange={(e) => setTime(e.target.value)}
-                    className="field pl-9"
+                    className="vs-field vs-field-with-icon"
                   />
                 </div>
               </div>
-              <div className="sm:col-span-2 xl:col-span-1">
-                <label className="field-label" htmlFor="party-size">
-                  Party size
-                </label>
-                <div className="relative">
-                  <Users className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-forest-600" strokeWidth={1.5} />
+              <div>
+                <label className="vs-label" htmlFor="party-size">Party size</label>
+                <div className="vs-field-icon-wrap">
+                  <Users size={18} strokeWidth={1.5} />
                   <input
                     id="party-size"
                     type="number"
                     min={1}
                     value={partySize}
                     onChange={(e) => setPartySize(Math.max(1, Number(e.target.value)))}
-                    className="field pl-9"
+                    className="vs-field vs-field-with-icon"
                   />
                 </div>
               </div>
             </div>
-            <div className="mt-4">
-              <label className="field-label" htmlFor="reservation-notes">
-                Notes <span className="font-normal normal-case text-forest-700/50">(optional)</span>
+            <div style={{ marginTop: '1.5rem' }}>
+              <label className="vs-label" htmlFor="reservation-notes">
+                Notes <span style={{ fontWeight: 400, textTransform: 'none', color: '#888' }}>(optional)</span>
               </label>
               <textarea
                 id="reservation-notes"
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 rows={2}
-                className="field resize-none"
+                className="vs-field"
+                style={{ resize: 'none' }}
                 placeholder="Room number, allergies, special seating, etc."
               />
             </div>
@@ -601,9 +559,13 @@ export default function Dining() {
             <button
               type="button"
               onClick={() => setShowCustomDish((value) => !value)}
-              className="text-sm font-semibold uppercase tracking-wider text-forest-700 transition-colors hover:text-forest-900"
+              style={{
+                background: 'transparent', border: 'none', color: '#1c1a18', fontSize: '0.85rem',
+                fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', cursor: 'pointer',
+                display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: 0
+              }}
             >
-              {showCustomDish ? '− ' : '+ '}
+              <span style={{ fontSize: '1.2rem', fontWeight: 400 }}>{showCustomDish ? '−' : '+'}</span>
               Suggest a custom dish
             </button>
             {showCustomDish && (
@@ -611,7 +573,8 @@ export default function Dining() {
                 value={customDish}
                 onChange={(e) => setCustomDish(e.target.value)}
                 rows={3}
-                className="field mt-3 resize-none"
+                className="vs-field"
+                style={{ resize: 'none', marginTop: '1rem' }}
                 placeholder="Describe your dish, ingredients, cooking style..."
               />
             )}
@@ -619,16 +582,16 @@ export default function Dining() {
 
           <div>
             {loading ? (
-              <div className={`${panelClass} text-center text-forest-700/70`}>
+              <div className={panelClass} style={{ textAlign: 'center', color: '#777' }}>
                 <Loader2 className="mr-2 inline h-5 w-5 animate-spin" strokeWidth={1.5} />
                 Loading menu…
               </div>
             ) : visibleItems.length === 0 ? (
-              <div className={`${panelClass} text-center text-forest-700/70`}>
+              <div className={panelClass} style={{ textAlign: 'center', color: '#777' }}>
                 {error || 'No dishes match your search.'}
               </div>
             ) : (
-              <div className="grid grid-cols-1 gap-4">
+              <div>
                 {visibleItems.map((item) => (
                   <MenuItemCard
                     key={item.id}
@@ -642,98 +605,58 @@ export default function Dining() {
               </div>
             )}
             {error && !loading && visibleItems.length > 0 && (
-              <p className="mt-2 text-xs text-rose-600">{error}</p>
+              <p style={{ marginTop: '0.5rem', fontSize: '0.85rem', color: '#d32f2f' }}>{error}</p>
             )}
           </div>
         </div>
 
-        <aside className="h-max rounded-3xl border border-forest-900/10 bg-white shadow-soft lg:sticky lg:top-24">
-          <div className="flex items-center gap-2 border-b border-forest-900/10 bg-sand-100/80 px-4 py-4 sm:px-5">
-            <ShoppingCart className="h-5 w-5 text-forest-700" strokeWidth={1.5} />
-            <h3 className="font-display text-xl font-semibold text-forest-950">Your order</h3>
+        {/* Right Column (Sidebar Order) */}
+        <aside className="vs-sidebar">
+          <div className="vs-sidebar-header">
+            <ShoppingCart size={24} strokeWidth={1.5} />
+            <h3 className="vs-sidebar-header-title">Your order</h3>
           </div>
 
-          <div className="space-y-4 p-4 sm:p-5">
+          <div className="vs-sidebar-body">
             <div className={insetPanelClass}>
-              <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-forest-950">
-                <User className="h-4 w-4 text-forest-600" strokeWidth={1.5} />
+              <div style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', fontWeight: 600, color: '#1c1a18' }}>
+                <User size={16} strokeWidth={1.5} color="#888" />
                 Your details
               </div>
-              <div className="grid gap-3">
-                <IconField
-                  icon={User}
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder="Full name"
-                />
-                <IconField
-                  icon={Phone}
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  placeholder="Phone number"
-                />
-                <IconField
-                  icon={Mail}
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Email (optional)"
-                />
+              <div style={{ display: 'grid', gap: '1rem' }}>
+                <IconField icon={User} value={name} onChange={(e) => setName(e.target.value)} placeholder="Full name" />
+                <IconField icon={Phone} value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Phone number" />
+                <IconField icon={Mail} type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email (optional)" />
               </div>
             </div>
 
             <div className={insetPanelClass}>
-              <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-forest-950">
-                <CreditCard className="h-4 w-4 text-forest-600" strokeWidth={1.5} />
+              <div style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', fontWeight: 600, color: '#1c1a18' }}>
+                <CreditCard size={16} strokeWidth={1.5} color="#888" />
                 Payment
               </div>
-              <div className="grid gap-2 text-forest-900">
-                <label className="flex items-center gap-2 text-sm">
-                  <input
-                    type="radio"
-                    name="pay"
-                    checked={paymentMethod === 'pay-counter'}
-                    onChange={() => setPaymentMethod('pay-counter')}
-                  />
+              <div style={{ display: 'grid', gap: '0.8rem', color: '#555' }}>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '0.9rem', cursor: 'pointer' }}>
+                  <input type="radio" name="pay" checked={paymentMethod === 'pay-counter'} onChange={() => setPaymentMethod('pay-counter')} />
                   Pay at counter
                 </label>
-                <label className="flex items-center gap-2 text-sm">
-                  <input
-                    type="radio"
-                    name="pay"
-                    checked={paymentMethod === 'room'}
-                    onChange={() => setPaymentMethod('room')}
-                  />
-                  <span className="inline-flex items-center gap-2">
-                    <BedDouble className="h-4 w-4" strokeWidth={1.5} />
+                <label style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '0.9rem', cursor: 'pointer' }}>
+                  <input type="radio" name="pay" checked={paymentMethod === 'room'} onChange={() => setPaymentMethod('room')} />
+                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <BedDouble size={16} strokeWidth={1.5} />
                     Charge to room
                   </span>
                 </label>
                 {paymentMethod === 'room' && (
-                  <div className="grid gap-2 pl-6">
-                    <input
-                      value={roomNumber}
-                      onChange={(e) => setRoomNumber(e.target.value)}
-                      className="field"
-                      placeholder="Room number"
-                    />
-                    <input
-                      value={roomGuest}
-                      onChange={(e) => setRoomGuest(e.target.value)}
-                      className="field"
-                      placeholder="Guest name"
-                    />
+                  <div style={{ display: 'grid', gap: '0.8rem', paddingLeft: '1.8rem' }}>
+                    <input value={roomNumber} onChange={(e) => setRoomNumber(e.target.value)} className="vs-field" placeholder="Room number" />
+                    <input value={roomGuest} onChange={(e) => setRoomGuest(e.target.value)} className="vs-field" placeholder="Guest name" />
                   </div>
                 )}
-                <label className="flex items-center gap-2 text-sm">
-                  <input
-                    type="radio"
-                    name="pay"
-                    checked={paymentMethod === 'card'}
-                    onChange={() => setPaymentMethod('card')}
-                  />
-                  <span className="inline-flex items-center gap-2">
-                    <CreditCard className="h-4 w-4" strokeWidth={1.5} />
+                <label style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '0.9rem', cursor: 'pointer' }}>
+                  <input type="radio" name="pay" checked={paymentMethod === 'card'} onChange={() => setPaymentMethod('card')} />
+                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <CreditCard size={16} strokeWidth={1.5} />
                     Pay now (card)
                   </span>
                 </label>
@@ -741,102 +664,72 @@ export default function Dining() {
             </div>
 
             {!hasCartItems ? (
-              <div className="py-8 text-center text-sm text-forest-700/70">
+              <div style={{ padding: '2rem 0', textAlign: 'center', fontSize: '0.95rem', color: '#888' }}>
                 Add dishes to begin your order.
               </div>
             ) : (
-              <div className="space-y-4">
-                {Object.values(cart).map(({ item, qty }) => (
-                  <div
-                    key={item.id}
-                    className="flex flex-col gap-3 border-b border-forest-900/10 pb-4 last:border-b-0 last:pb-0 sm:flex-row sm:items-center"
-                  >
-                    <div className="flex min-w-0 flex-1 items-center gap-3">
-                      <img
-                        src={item.image || PLACEHOLDER}
-                        alt={item.name}
-                        className="h-14 w-14 shrink-0 rounded-xl object-cover"
-                      />
-                      <div className="min-w-0">
-                        <div className="truncate text-sm font-medium text-forest-950">{item.name}</div>
-                        <div className="text-xs text-forest-700/70">{formatRwf(item.price)}</div>
+              <div>
+                <div style={{ marginBottom: '1.5rem' }}>
+                  {Object.values(cart).map(({ item, qty }) => (
+                    <div key={item.id} className="vs-cart-item">
+                      <img src={item.image || PLACEHOLDER} alt={item.name} className="vs-cart-item-img" />
+                      <div className="vs-cart-item-info">
+                        <div className="vs-cart-item-title">{item.name}</div>
+                        <div className="vs-cart-item-price">{formatRwf(item.price)}</div>
                       </div>
-                    </div>
-
-                    <div className="flex items-center justify-between gap-2 sm:justify-end">
-                      <div className="inline-flex items-center overflow-hidden rounded-full border border-forest-900/10">
-                        <button
-                          type="button"
-                          onClick={() => subItem(item)}
-                          className="px-3 py-2 hover:bg-forest-700/5"
-                        >
-                          <Minus className="h-4 w-4" strokeWidth={1.5} />
-                        </button>
-                        <div className="min-w-[2rem] px-2 text-center text-sm font-medium">{qty}</div>
-                        <button
-                          type="button"
-                          onClick={() => addItem(item)}
-                          className="px-3 py-2 hover:bg-forest-700/5"
-                        >
-                          <Plus className="h-4 w-4" strokeWidth={1.5} />
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                        <div className="vs-qty-ctrl" style={{ padding: '0.15rem' }}>
+                          <button type="button" onClick={() => subItem(item)} className="vs-qty-btn" style={{ width: '28px', height: '28px' }}>
+                            <Minus size={14} strokeWidth={2} />
+                          </button>
+                          <div className="vs-qty-val" style={{ minWidth: '1.5rem', fontSize: '0.85rem' }}>{qty}</div>
+                          <button type="button" onClick={() => addItem(item)} className="vs-qty-btn" style={{ width: '28px', height: '28px' }}>
+                            <Plus size={14} strokeWidth={2} />
+                          </button>
+                        </div>
+                        <button type="button" onClick={() => removeItem(item.id)} className="vs-cart-item-remove" aria-label={`Remove ${item.name}`}>
+                          <Trash2 size={16} strokeWidth={1.5} />
                         </button>
                       </div>
-                      <button
-                        type="button"
-                        onClick={() => removeItem(item.id)}
-                        className="rounded-full p-2 text-rose-600 hover:bg-rose-50"
-                        aria-label={`Remove ${item.name}`}
-                      >
-                        <Trash2 className="h-4 w-4" strokeWidth={1.5} />
-                      </button>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
 
-                <div className="space-y-1 border-t border-forest-900/10 pt-4 text-sm">
+                <div className="vs-order-summary">
                   <OrderLine label="Subtotal" value={formatRwf(subtotal)} />
                   <OrderLine label="Discount" value={`- ${formatRwf(discount)}`} />
-                  <div className="flex items-center justify-between pt-2 font-display text-lg font-semibold text-forest-950">
+                  <div className="vs-order-summary-total">
                     <span>Total</span>
-                    <span className="text-forest-700">{formatRwf(total)}</span>
+                    <span>{formatRwf(total)}</span>
                   </div>
                 </div>
 
-                <div className="flex flex-col items-center gap-2 py-2">
-                  <QRCodeSVG value={menuUrl} size={140} fgColor={QR_COLOR} includeMargin />
-                  <p className="text-center text-xs text-forest-700/70">Scan to open the full menu</p>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', padding: '1.5rem 0' }}>
+                  <QRCodeSVG value={menuUrl} size={120} fgColor={QR_COLOR} includeMargin />
+                  <p style={{ textAlign: 'center', fontSize: '0.8rem', color: '#888' }}>Scan to open the full menu</p>
                 </div>
 
-                <div className="grid gap-3">
+                <div style={{ display: 'grid', gap: '1rem' }}>
                   <button
                     type="button"
                     onClick={handleBuyNow}
                     disabled={!hasCartItems || placingOrder}
-                    className="btn-primary w-full justify-center disabled:opacity-60"
+                    className="vs-btn-primary"
                   >
                     {placingOrder ? (
-                      <>
-                        <Loader2 className="h-4 w-4 animate-spin" />
-                        Placing…
-                      </>
+                      <><Loader2 size={18} className="animate-spin" /> Placing…</>
                     ) : (
-                      <>
-                        <ShoppingBag className="h-4 w-4" strokeWidth={1.5} />
-                        Buy now
-                      </>
+                      <><ShoppingBag size={18} strokeWidth={1.5} /> Buy now</>
                     )}
                   </button>
                   <button
                     type="button"
                     onClick={handleBookTable}
                     disabled={bookingTable}
-                    className="btn-outline w-full justify-center disabled:opacity-60"
+                    className="vs-btn-outline"
                   >
                     {bookingTable ? (
-                      <>
-                        <Loader2 className="h-4 w-4 animate-spin" />
-                        Booking…
-                      </>
+                      <><Loader2 size={18} className="animate-spin" /> Booking…</>
                     ) : (
                       'Book table'
                     )}
@@ -846,11 +739,7 @@ export default function Dining() {
             )}
 
             {statusMessage && (
-              <p
-                className={`text-sm ${
-                  statusMessage.type === 'error' ? 'text-rose-600' : 'text-forest-700'
-                }`}
-              >
+              <p style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '0.95rem', fontWeight: 600, color: statusMessage.type === 'error' ? '#d32f2f' : '#1c1a18' }}>
                 {statusMessage.text}
               </p>
             )}
