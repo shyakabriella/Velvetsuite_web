@@ -1,0 +1,142 @@
+/* Gallery.css - Modern Grid Layout */
+
+.vs-gallery-page {
+  background-color: #faf9f7;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.vs-gallery-hero {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  min-height: 400px;
+  background-image: url('/homepageimgs/628B0243-Edited-1920x1280.jpg.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; /* account for navbar */
+}
+
+.vs-gallery-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(28, 26, 24, 0.4);
+  z-index: 1;
+}
+
+.vs-gallery-hero-title {
+  position: relative;
+  z-index: 2;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 4.5rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.vs-gallery-content {
+  padding: 6rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.vs-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.vs-gallery-item {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  aspect-ratio: 4 / 3;
+}
+
+.vs-gallery-item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(28, 26, 24, 0.2);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.vs-gallery-item:hover::after {
+  opacity: 1;
+}
+
+.vs-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.vs-gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Create a dynamic "bento box" masonry feel on larger screens */
+@media (min-width: 900px) {
+  .vs-gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 350px;
+    gap: 2rem;
+  }
+  
+  .vs-gallery-item {
+    aspect-ratio: auto;
+  }
+  
+  .vs-gallery-item:nth-child(6n + 1) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .vs-gallery-item:nth-child(6n + 2),
+  .vs-gallery-item:nth-child(6n + 3) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .vs-gallery-item:nth-child(6n + 4),
+  .vs-gallery-item:nth-child(6n + 5),
+  .vs-gallery-item:nth-child(6n + 6) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  /* Fallback for the 4th item to take 2 cols if needed for layout balance */
+  .vs-gallery-item:nth-child(6n + 4) {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 900px) {
+  .vs-gallery-hero-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .vs-gallery-hero-title {
+    font-size: 2.5rem;
+  }
+  .vs-gallery-content {
+    padding: 3rem 1rem;
+  }
+  .vs-gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
