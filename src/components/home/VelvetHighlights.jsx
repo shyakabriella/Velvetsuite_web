@@ -18,7 +18,7 @@ export default function VelvetHighlights() {
 
       {/* Content */}
       <div className="vs-highlights-content">
-        <div className="vs-highlights-eyebrow">VELVET HIGHLIGHTS</div>
+        <div className="text-4xl font-bold text-white">VELVET HIGHLIGHTS</div>
         <div className="vs-highlights-subtitle">Take a Sneak Peek at What We Offer</div>
 
         <a href="/about" className="vs-discover-circle">

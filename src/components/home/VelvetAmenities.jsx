@@ -114,13 +114,13 @@ const amenities = [
 export default function VelvetAmenities() {
   return (
     <section className="vs-amenities-section">
-      <h2 className="vs-amenities-title">ROOM CATEGORIES &amp; AMENITIES</h2>
-
-      <p className="vs-amenities-desc">
+      <h2 className=" text-4xl font-bold text-white ">ROOM CATEGORIES &amp; AMENITIES</h2>
+      <br />
+      <p className="vs-amenities-desc text-white">
         Our rooms and suites are designed with your comfort in mind, featuring modern decor,
         premium bedding, and thoughtful amenities.
       </p>
-      <p className="vs-amenities-sub">All rooms include:</p>
+      <p className="vs-amenities-sub text-white">All rooms include:</p>
 
       <div className="vs-amenities-grid">
         {amenities.map((a, i) => (

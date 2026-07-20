@@ -72,7 +72,7 @@ export default function Stories() {
               The lake is waiting, the fire is lit, and the rangers know where
               the lions slept last night.
             </p>
-            <Link to="/book" className="btn-primary mt-8">
+            <Link to="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no" className="btn-primary mt-8">
               Plan Your Escape
             </Link>
           </div>

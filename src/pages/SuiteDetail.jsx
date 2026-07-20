@@ -98,7 +98,7 @@ export default function SuiteDetail() {
                   Rate includes breakfast, the sunrise game drive, park entry
                   for lodge guests, and Wi-Fi in public areas.
                 </p>
-                <Link to="/book" className="btn-primary mt-6 w-full">
+                <Link to="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no" className="btn-primary mt-6 w-full">
                   Reserve This Suite
                 </Link>
                 <Link to="/experiences" className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-full border border-forest-700/30 px-6 py-3 text-xs font-semibold uppercase tracking-wider text-forest-800 transition-all hover:bg-forest-700 hover:text-sand-50">

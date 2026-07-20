@@ -37,7 +37,7 @@ function BookingDotComIcon() {
 const quickLinks = [
   { label: 'Home',     to: '/' },
   { label: 'About Us', to: '/about' },
-  { label: 'Policies', to: '/policies' },
+  { label: 'Policies', to: 'https://direct-book.com/properties/velvetsuites/policies?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-20&checkOutDate=2026-07-21&trackPage=no' },
   { label: 'Gallery',  to: '/gallery' },
   { label: 'Menu',     to: '/restaurant' },
 ];

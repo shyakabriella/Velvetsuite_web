@@ -11,7 +11,7 @@ export const site = {
     checkOut: '11:00',
     reception: '24-hour concierge',
     roomCount: 20,
-    bookingUrl: 'https://www.velvetsuites.rw/',
+    bookingUrl: 'https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no',
     apiBase: 'https://api.velvetsuites.rw',
     social: {
         instagram: 'https://www.instagram.com/velve_tsuites/',

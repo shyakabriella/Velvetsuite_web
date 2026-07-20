@@ -235,7 +235,7 @@ export default function SectionThree({ data, onSave }) {
       <div className="rounded-2xl border bg-white p-6 shadow-sm">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <h2 className="text-xl font-bold text-gray-900">Section 3 - Room Categories & Amenities</h2>
+            <h2 className=" text-4xl font-bold">Section 3 - Room Categories & Amenities</h2>
             <p className="text-sm text-gray-500">
               {sectionData.id ? "Edit the section content" : "Create a new section"}
             </p>

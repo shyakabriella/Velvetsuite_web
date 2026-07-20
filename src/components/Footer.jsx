@@ -15,7 +15,7 @@ const columns = [
     {
         title: 'Book',
         links: [
-            { label: 'Reserve a Room', to: 'https://direct-book.com/properties/akageraparkinn?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-06-27&checkOutDate=2026-06-28&trackPage=no' },
+            { label: 'Reserve a Room', to: site.bookingUrl },
             { label: 'View Rooms', to: '/stays' },
             { label: 'Restaurant', to: '/restaurant' },
             { label: 'Guest Reviews', to: '/stories' },
@@ -24,11 +24,11 @@ const columns = [
     {
         title: 'Contact',
         links: [
-            { label: site.phones[0], to: '/book' },
-            { label: site.phones[1], to: '/book' },
-            { label: site.email, to: '/book' },
-            { label: site.address, to: '/book' },
-            { label: `Check-in ${site.checkIn}`, to: '/book' },
+            { label: site.phones[0], to: `tel:${site.phones[0].replace(/\s+/g, '')}` },
+            { label: site.phones[1], to: `tel:${site.phones[1].replace(/\s+/g, '')}` },
+            { label: site.email, to: `mailto:${site.email}` },
+            { label: site.address, to: 'https://maps.google.com/?q=' + encodeURIComponent(site.address) },
+            { label: `Check-in ${site.checkIn}`, to: '#' },
         ],
     },
 ];

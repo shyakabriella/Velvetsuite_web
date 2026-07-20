@@ -9,10 +9,11 @@ const checks = [
 export default function VelvetWelcome() {
   return (
     <section className="vs-why-section">
-      <h2 className="vs-why-title">Why Choose Velvet Suites</h2>
+      <h2 className="text-4xl font-bold text-gray-900">Why Choose Velvet Suites</h2>
+      <br />
       <ul className="vs-why-list">
         {checks.map((item, i) => (
-          <li key={i} className="vs-why-item">
+          <li key={i} className="vs-why-item ">
             <span className="vs-why-check">✓</span>
             <span>{item}</span>
           </li>

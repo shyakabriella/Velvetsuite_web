@@ -8,7 +8,7 @@ export default function VelvetAbout() {
           <div className="w-full lg:w-1/2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lift">
               <img
-                src="/homepageimgs/628B0243-Edited-768x512.jpg.jpeg"
+                src="/velvetGallarypageimages/image_0.jpeg"
                 alt="Velvet Suites Experience"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />

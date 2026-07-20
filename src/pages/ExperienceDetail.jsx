@@ -86,7 +86,7 @@ export default function ExperienceDetail() {
                       {item}
                     </li>))}
                 </ul>
-                <Link to="/book" className="btn-primary mt-7 w-full">
+                <Link to="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no" className="btn-primary mt-7 w-full">
                   Book This Experience
                 </Link>
                 <p className="mt-4 text-center text-xs text-forest-700/60">
