@@ -1,22 +1,37 @@
+import React from 'react';
 import VelvetHero from '../components/home/VelvetHero';
-import VelvetAbout from '../components/home/VelvetAbout';
+
 import VelvetWelcome from '../components/home/VelvetWelcome';
-import VelvetHighlights from '../components/home/VelvetHighlights';
 import VelvetRooms from '../components/home/VelvetRooms';
-import VelvetAmenities from '../components/home/VelvetAmenities';
-import VelvetPropertyDetails from '../components/home/VelvetPropertyDetails';
+import VelvetRestaurant from '../components/home/VelvetRestaurant';
+import VelvetPool from '../components/home/VelvetPool';
+import VelvetGym from '../components/home/VelvetGym';
+import VelvetWellness from '../components/home/VelvetWellness';
+import VelvetBar from '../components/home/VelvetBar';
+import VelvetFacilities from '../components/home/VelvetFacilities';
+import VelvetEvents from '../components/home/VelvetEvents';
+import VelvetGallerySection from '../components/home/VelvetGallerySection';
+import VelvetReviews from '../components/home/VelvetReviews';
+import VelvetReservationCTA from '../components/home/VelvetReservationCTA';
 import WhatsAppFloat from '../components/WhatsAppFloat';
+import ScrollReveal from '../components/ScrollReveal';
 
 export default function Home() {
   return (
-    <div className="vs-page">
+    <div className="vs-page overflow-x-hidden">
       <VelvetHero />
-      <VelvetAbout />
-      <VelvetWelcome />
-      <VelvetHighlights />
-      <VelvetRooms />
-      <VelvetAmenities />
-      <VelvetPropertyDetails />
+      <ScrollReveal><VelvetWelcome /></ScrollReveal>
+      <ScrollReveal><VelvetRooms /></ScrollReveal>
+      <ScrollReveal><VelvetRestaurant /></ScrollReveal>
+      <ScrollReveal><VelvetPool /></ScrollReveal>
+      <ScrollReveal><VelvetGym /></ScrollReveal>
+      <ScrollReveal><VelvetWellness /></ScrollReveal>
+      <ScrollReveal><VelvetBar /></ScrollReveal>
+      <ScrollReveal><VelvetFacilities /></ScrollReveal>
+      <ScrollReveal><VelvetEvents /></ScrollReveal>
+      <ScrollReveal><VelvetGallerySection /></ScrollReveal>
+      <ScrollReveal><VelvetReviews /></ScrollReveal>
+      <ScrollReveal><VelvetReservationCTA /></ScrollReveal>
       <WhatsAppFloat />
     </div>
   );

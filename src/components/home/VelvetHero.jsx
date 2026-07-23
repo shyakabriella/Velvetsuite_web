@@ -1,116 +1,49 @@
-import { useState, useEffect } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function VelvetHero() {
-  const [checkIn, setCheckIn] = useState('');
-  const [checkOut, setCheckOut] = useState('');
-  const [rooms, setRooms] = useState('1 Room');
-  const [adults, setAdults] = useState('1');
-  const [children, setChildren] = useState('0');
-
-  useEffect(() => {
-    const today = new Date();
-    const tomorrow = new Date(today);
-    tomorrow.setDate(today.getDate() + 1);
-    const fmt = (d) => d.toISOString().split('T')[0];
-    setCheckIn(fmt(today));
-    setCheckOut(fmt(tomorrow));
-  }, []);
+  const navigate = useNavigate();
 
   return (
-    <section className="vs-hero">
+    <section className="vs-hero relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div
-        className="vs-hero-bg"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url('/homepageimgs/628B0145-Edited-scaled.jpg.jpeg')` }}
       />
 
-      {/* Dark overlay */}
-      <div className="vs-hero-overlay" />
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/50" />
 
-      {/* Two-column content: text LEFT, booking card RIGHT */}
-      <div className="vs-hero-content">
-        {/* Left: welcome text */}
-        <div className="vs-hero-text" style={{
-          background: 'rgba(0,0,0,0.65)',
-          padding: '3rem',
-          borderRadius: '2px',
-        }}>
-          <p>
-            Welcome to Velvet Suites — Where Comfort Meets Class, Nestled just five minutes
-            from Kigali International Airport, Velvet Suites your perfect gateway to comfort,
-            convenience, and a refined hospitality experience. Whether you're travelling for
-            business, leisure, or a bit of both, our hotel offers the ideal blend of proximity, peace,
-            and premium service in the heart of Rwanda's vibrant capital.
-          </p>
-          <p>
-            From the moment you arrive, Velvet suites welcomes you with a warm Rwandan smile,
-            elegant ambience, and world-class amenities tailored to meet your every need. Our
-            location offers a strategic advantage—perfect for international travellers, business
-            executives, and tourists seeking swift airport access without compromising luxury or
-            tranquillity.
-          </p>
-        </div>
+      {/* Hero Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 max-w-4xl mx-auto">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide" style={{ fontFamily: 'var(--font-heading)' }}>
+          Comfort, Relaxation and Luxury in One Place
+        </h1>
+        
+        <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl font-light">
+          Step into a world of refined elegance. Discover unmatched luxury, impeccable service, and a sanctuary of comfort designed exclusively for you.
+        </p>
 
-        {/* Right: booking card */}
-        <div className="vs-booking-card">
-          <div className="vs-booking-eyebrow">CHOOSE DATE TO SEARCH</div>
-          <div className="vs-booking-title">BOOK YOUR STAY</div>
+        <div className="flex flex-col sm:flex-row gap-4">
 
-          {/* Check In */}
-          <div className="vs-booking-field">
-            <span className="vs-booking-field-label">Check In</span>
-            <div className="vs-booking-field-value">
-              <input type="date" value={checkIn} onChange={e => setCheckIn(e.target.value)} />
-              <span>▾</span>
-            </div>
-          </div>
-
-          {/* Check Out */}
-          <div className="vs-booking-field">
-            <span className="vs-booking-field-label">Check Out</span>
-            <div className="vs-booking-field-value">
-              <input type="date" value={checkOut} onChange={e => setCheckOut(e.target.value)} />
-              <span>▾</span>
-            </div>
-          </div>
-
-          {/* Rooms */}
-          <div className="vs-booking-field">
-            <span className="vs-booking-field-label">Rooms</span>
-            <div className="vs-booking-field-value">
-              <select value={rooms} onChange={e => setRooms(e.target.value)}>
-                {['1 Room', '2 Rooms', '3 Rooms', '4 Rooms'].map(r => (
-                  <option key={r}>{r}</option>
-                ))}
-              </select>
-              <span>▾</span>
-            </div>
-          </div>
-
-          {/* Adults + Children */}
-          <div className="vs-booking-guests-row">
-            <div className="vs-booking-field" style={{ marginBottom: 0 }}>
-              <span className="vs-booking-field-label">Adults</span>
-              <div className="vs-booking-field-value">
-                <select value={adults} onChange={e => setAdults(e.target.value)}>
-                  {['1','2','3','4','5','6'].map(n => <option key={n}>{n}</option>)}
-                </select>
-                <span>▾</span>
-              </div>
-            </div>
-            <div className="vs-booking-field" style={{ marginBottom: 0 }}>
-              <span className="vs-booking-field-label">Children</span>
-              <div className="vs-booking-field-value">
-                <select value={children} onChange={e => setChildren(e.target.value)}>
-                  {['0','1','2','3','4'].map(n => <option key={n}>{n}</option>)}
-                </select>
-                <span>▾</span>
-              </div>
-            </div>
-          </div>
-
-          <button className="vs-check-availability-btn">
-            Check Availability
+          <a
+            href="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold rounded-sm transition-all transform hover:scale-105 uppercase tracking-wider text-sm text-center"
+          >
+            View Rooms
+          </a>
+          
+          <button 
+            onClick={() => {
+              const facilities = document.getElementById('facilities-section');
+              if (facilities) facilities.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="px-8 py-3 bg-transparent hover:bg-white/5 border border-[#c9a84c] text-[#c9a84c] hover:text-[#d4b45a] hover:border-[#d4b45a] font-semibold rounded-sm transition-all transform hover:scale-105 uppercase tracking-wider text-sm"
+          >
+            Explore Facilities
           </button>
         </div>
       </div>

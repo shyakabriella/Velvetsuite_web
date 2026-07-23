@@ -7,6 +7,7 @@ const navLinks = [
   { label: 'POLICIES', to: 'https://direct-book.com/properties/velvetsuites/policies?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no' },
   { label: 'GALLERY', to: '/gallery' },
   { label: 'MENU', to: '/menu' },
+  { label: 'CONTACT', to: 'https://direct-book.com/properties/velvetsuites/contact?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-23&checkOutDate=2026-07-24&trackPage=no' },
 ];
 
 export default function VelvetNavbar({ currentPath }) {
@@ -54,7 +55,7 @@ export default function VelvetNavbar({ currentPath }) {
         <div className="vs-navbar-inner" style={{ position: 'relative', width: '100%' }}>
 
           {/* ── LEFT: hamburger, then nav links ── */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', flex: 1 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flex: 1 }}>
 
             {/* Hamburger icon */}
             <button
