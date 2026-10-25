@@ -1,13 +1,22 @@
-import { useState, useEffect } from 'react';
-import { useNavigate } from './Link';
+import { useState, useEffect } from "react";
+import { useNavigate } from "./Link";
 
 const navLinks = [
-  { label: 'HOME', to: '/' },
-  { label: 'ABOUT US', to: 'https://direct-book.com/properties/velvetsuites/about?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-08-06&checkOutDate=2026-08-07&trackPage=no' },
-  { label: 'POLICIES', to: 'https://direct-book.com/properties/velvetsuites/policies?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no' },
-  { label: 'GALLERY', to: '/gallery' },
-  { label: 'MENU', to: '/menu' },
-  { label: 'CONTACT', to: 'https://direct-book.com/properties/velvetsuites/contact?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-23&checkOutDate=2026-07-24&trackPage=no' },
+  { label: "HOME", to: "/" },
+  {
+    label: "ABOUT US",
+    to: "https://direct-book.com/properties/velvetsuites/about?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-08-06&checkOutDate=2026-08-07&trackPage=no",
+  },
+  {
+    label: "POLICIES",
+    to: "https://direct-book.com/properties/velvetsuites/policies?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no",
+  },
+  { label: "GALLERY", to: "/gallery" },
+  { label: "MENU", to: "/menu" },
+  {
+    label: "CONTACT",
+    to: "https://direct-book.com/properties/velvetsuites/contact?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-23&checkOutDate=2026-07-24&trackPage=no",
+  },
 ];
 
 export default function VelvetNavbar({ currentPath }) {
@@ -19,21 +28,23 @@ export default function VelvetNavbar({ currentPath }) {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     // Trigger once on mount
     handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : '';
-    return () => { document.body.style.overflow = ''; };
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [open]);
 
   useEffect(() => {
-    const handleToggle = () => setOpen(v => !v);
-    window.addEventListener('toggle-mobile-menu', handleToggle);
-    return () => window.removeEventListener('toggle-mobile-menu', handleToggle);
+    const handleToggle = () => setOpen((v) => !v);
+    window.addEventListener("toggle-mobile-menu", handleToggle);
+    return () => window.removeEventListener("toggle-mobile-menu", handleToggle);
   }, []);
 
   const handleNav = (e, to) => {
@@ -42,52 +53,72 @@ export default function VelvetNavbar({ currentPath }) {
     navigate(to);
   };
 
-  const forceSolid = currentPath.startsWith('/blog/') && currentPath !== '/blog';
+  const forceSolid =
+    currentPath.startsWith("/blog/") && currentPath !== "/blog";
   const isSolid = scrolled || forceSolid;
 
   return (
     <>
       {/* ══ NAVBAR ══ */}
-      <header className={`vs-navbar ${isSolid ? 'scrolled' : ''}`} style={{
-        minHeight: 'clamp(80px, 14vw, 140px)',
-        display: 'flex',
-        alignItems: 'center',
-        background: isSolid ? '#3b0404' : 'transparent',
-        borderBottom: isSolid ? 'none' : '1px solid rgba(255, 255, 255, 0.15)'
-      }}>
-        <div className="vs-navbar-inner" style={{ position: 'relative', width: '100%' }}>
-
+      <header
+        className={`vs-navbar ${isSolid ? "scrolled" : ""}`}
+        style={{
+          minHeight: "clamp(70px, 9vw, 105px)",
+          display: "flex",
+          alignItems: "center",
+          background: isSolid ? "#3b0404" : "transparent",
+          borderBottom: isSolid
+            ? "none"
+            : "1px solid rgba(255, 255, 255, 0.15)",
+        }}
+      >
+        <div
+          className="vs-navbar-inner"
+          style={{ position: "relative", width: "100%" }}
+        >
           {/* ── LEFT: hamburger, then nav links ── */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flex: 1 }}>
-
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem",
+              flex: 1,
+            }}
+          >
             {/* Hamburger icon */}
             <button
-              aria-label={open ? 'Close menu' : 'Open menu'}
+              aria-label={open ? "Close menu" : "Open menu"}
               aria-expanded={open}
-              onClick={() => setOpen(v => !v)}
+              onClick={() => setOpen((v) => !v)}
               className="vs-hamburger"
             >
-              <span style={{
-                transform: open ? 'translateY(4.5px) rotate(45deg)' : 'none',
-              }} />
-              <span style={{
-                transform: open ? 'translateY(-4.5px) rotate(-45deg)' : 'none',
-              }} />
+              <span
+                style={{
+                  transform: open ? "translateY(4.5px) rotate(45deg)" : "none",
+                }}
+              />
+              <span
+                style={{
+                  transform: open
+                    ? "translateY(-4.5px) rotate(-45deg)"
+                    : "none",
+                }}
+              />
             </button>
 
             {/* Desktop nav links */}
             <nav className="vs-nav-links">
-              {navLinks.map(l => {
+              {navLinks.map((l) => {
                 const active = currentPath === l.to;
-                const isExternal = l.to.startsWith('http');
+                const isExternal = l.to.startsWith("http");
                 return (
                   <a
                     key={l.to}
                     href={l.to}
-                    onClick={isExternal ? undefined : e => handleNav(e, l.to)}
+                    onClick={isExternal ? undefined : (e) => handleNav(e, l.to)}
                     target={isExternal ? "_blank" : undefined}
                     rel={isExternal ? "noopener noreferrer" : undefined}
-                    className={`vs-nav-link ${active ? 'active' : ''}`}
+                    className={`vs-nav-link ${active ? "active" : ""}`}
                   >
                     {l.label}
                   </a>
@@ -99,34 +130,42 @@ export default function VelvetNavbar({ currentPath }) {
           {/* ── CENTER: Logo ── */}
           <a
             href="/"
-            onClick={e => handleNav(e, '/')}
+            onClick={(e) => handleNav(e, "/")}
             style={{
-              position: 'absolute',
-              left: '50%',
-              top: '50%',
-              transform: 'translate(-50%, -50%)',
-              textDecoration: 'none',
-              display: 'block',
+              position: "absolute",
+              left: "50%",
+              top: "50%",
+              transform: "translate(-50%, -50%)",
+              textDecoration: "none",
+              display: "block",
               zIndex: 10,
             }}
           >
             <img
-              src="/homepageimgs/cropped-Velvet-.png"
+              src="/VELVET SUITES-01.png"
               alt="Velvet Suites Logo"
-              style={{ height: 'clamp(60px, 12vw, 120px)', width: 'auto', objectFit: 'contain', display: 'block' }}
+              style={{
+                height: "clamp(52px, 8vw, 90px)",
+                width: "auto",
+                objectFit: "contain",
+                display: "block",
+              }}
             />
           </a>
 
           {/* ── RIGHT: tel + reserve button ── */}
-          <div className="vs-nav-right" style={{ flex: 1, justifyContent: 'flex-end' }}>
-            <a 
+          <div
+            className="vs-nav-right"
+            style={{ flex: 1, justifyContent: "flex-end" }}
+          >
+            <a
               href="/blog"
               onClick={(e) => {
                 e.preventDefault();
-                navigate('/blog');
+                navigate("/blog");
               }}
               className="vs-nav-tel"
-              style={{ textDecoration: 'none', cursor: 'pointer' }}
+              style={{ textDecoration: "none", cursor: "pointer" }}
             >
               BLOG
             </a>
@@ -137,45 +176,55 @@ export default function VelvetNavbar({ currentPath }) {
               rel="noopener noreferrer"
               className="vs-reserve-btn"
               style={{
-                color: isSolid ? '#111' : '#fff',
-                background: isSolid ? '#fff' : 'transparent',
+                color: isSolid ? "#111" : "#fff",
+                background: isSolid ? "#fff" : "transparent",
               }}
-              onMouseEnter={e => {
+              onMouseEnter={(e) => {
                 if (!isSolid) {
-                  e.currentTarget.style.background = 'rgba(255,255,255,0.1)';
+                  e.currentTarget.style.background = "rgba(255,255,255,0.1)";
                 } else {
-                  e.currentTarget.style.background = '#f0f0f0';
+                  e.currentTarget.style.background = "#f0f0f0";
                 }
               }}
-              onMouseLeave={e => {
+              onMouseLeave={(e) => {
                 if (!isSolid) {
-                  e.currentTarget.style.background = 'transparent';
+                  e.currentTarget.style.background = "transparent";
                 } else {
-                  e.currentTarget.style.background = '#fff';
+                  e.currentTarget.style.background = "#fff";
                 }
               }}
             >
-              Reserve Now {isSolid && <span style={{ fontSize: '14px', lineHeight: 1 }}>›</span>}
+              Reserve Now{" "}
+              {isSolid && (
+                <span style={{ fontSize: "14px", lineHeight: 1 }}>›</span>
+              )}
             </a>
           </div>
-
         </div>
       </header>
 
       {/* ══ MOBILE DRAWER ══ */}
-      <div className={`vs-mobile-drawer ${open ? 'open' : ''}`} style={{ top: 'clamp(80px, 14vw, 140px)', background: 'rgba(30,0,0,0.97)' }}>
-        {navLinks.map(l => {
-          const isExternal = l.to.startsWith('http');
+      <div
+        className={`vs-mobile-drawer ${open ? "open" : ""}`}
+        style={{
+          top: "clamp(70px, 9vw, 105px)",
+          background: "rgba(30,0,0,0.97)",
+        }}
+      >
+        {navLinks.map((l) => {
+          const isExternal = l.to.startsWith("http");
           return (
             <a
               key={l.to}
               href={l.to}
-              onClick={isExternal ? () => setOpen(false) : e => handleNav(e, l.to)}
+              onClick={
+                isExternal ? () => setOpen(false) : (e) => handleNav(e, l.to)
+              }
               target={isExternal ? "_blank" : undefined}
               rel={isExternal ? "noopener noreferrer" : undefined}
               className="vs-mobile-link"
               style={{
-                color: currentPath === l.to ? '#c9a84c' : '#fff',
+                color: currentPath === l.to ? "#c9a84c" : "#fff",
               }}
             >
               {l.label}
@@ -187,7 +236,7 @@ export default function VelvetNavbar({ currentPath }) {
           target="_blank"
           rel="noopener noreferrer"
           className="vs-mobile-link"
-          style={{ color: '#c9a84c', marginTop: '0.5rem' }}
+          style={{ color: "#c9a84c", marginTop: "0.5rem" }}
         >
           Reserve Now →
         </a>

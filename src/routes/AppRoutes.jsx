@@ -3,7 +3,6 @@ import { Route, Routes, useParams, Navigate } from "react-router-dom";
 import Layouts from "../components/Layouts";
 import Home from "../pages/Home";
 import About from "../pages/About";
-import Stays from "../pages/Stays";
 import SuiteDetail from "../pages/SuiteDetail";
 import Experiences from "../pages/Experiences";
 import ExperienceDetail from "../pages/ExperienceDetail";
@@ -14,7 +13,7 @@ import Stories from "../pages/Stories";
 import Book from "../pages/Book";
 import Policies from "../pages/Policies";
 import NotFound from "../pages/NotFound";
-import Login from "../pages/Login";  // ← Updated: Login is in pages folder
+import Login from "../pages/Login"; // ← Updated: Login is in pages folder
 import Dashboard from "../pages/Dashboard";
 import Blog from "../pages/Blog";
 import BlogDetail from "../pages/BlogDetail";
@@ -31,7 +30,8 @@ const ExperienceDetailWrapper = () => {
 
 export default function AppRoutes() {
   // Check if user is logged in
-  const token = sessionStorage.getItem("token") || sessionStorage.getItem("auth_token");
+  const token =
+    sessionStorage.getItem("token") || sessionStorage.getItem("auth_token");
 
   return (
     <Routes>
@@ -41,22 +41,18 @@ export default function AppRoutes() {
       {/* Dashboard - only if logged in */}
       <Route
         path="/admin/*"
-        element={
-          token ? <Dashboard /> : <Navigate to="/login" replace />
-        }
+        element={token ? <Dashboard /> : <Navigate to="/login" replace />}
       />
 
       {/* Redirect root to admin if logged in, else home */}
       <Route
         path="/"
-        element={
-          token ? <Navigate to="/admin" replace /> : <Layouts />
-        }
+        element={token ? <Navigate to="/admin" replace /> : <Layouts />}
       >
         {/* Public routes */}
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="stays" element={<Stays />} />
+        <Route path="stays" element={<Navigate to="/gallery" replace />} />
         <Route path="stays/:slug" element={<SuiteDetailWrapper />} />
         <Route path="experiences" element={<Experiences />} />
         <Route path="experiences/:slug" element={<ExperienceDetailWrapper />} />

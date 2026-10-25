@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import VelvetHero from '../components/home/VelvetHero';
-import VelvetWelcome from '../components/home/VelvetWelcome';
-import VelvetMissionVision from '../components/home/VelvetMissionVision';
-import VelvetRooms from '../components/home/VelvetRooms';
-import VelvetLeadership from '../components/home/VelvetLeadership';
-import VelvetRestaurant from '../components/home/VelvetRestaurant';
-import VelvetFacilities from '../components/home/VelvetFacilities';
-import VelvetGallerySection from '../components/home/VelvetGallerySection';
-import VelvetReviews from '../components/home/VelvetReviews';
-import VelvetReservationCTA from '../components/home/VelvetReservationCTA';
-import WhatsAppFloat from '../components/WhatsAppFloat';
-import ScrollReveal from '../components/ScrollReveal';
+import VelvetHero from "../components/home/VelvetHero";
+import VelvetWelcome from "../components/home/VelvetWelcome";
+import VelvetMissionVision from "../components/home/VelvetMissionVision";
+import VelvetRooms from "../components/home/VelvetRooms";
+import VelvetLeadership from "../components/home/VelvetLeadership";
+import VelvetRestaurant from "../components/home/VelvetRestaurant";
+import VelvetFacilities from "../components/home/VelvetFacilities";
+import VelvetReviews from "../components/home/VelvetReviews";
+import VelvetReservationCTA from "../components/home/VelvetReservationCTA";
+import WhatsAppFloat from "../components/WhatsAppFloat";
+import ScrollReveal from "../components/ScrollReveal";
 
 export default function Home() {
   return (
@@ -34,9 +33,7 @@ export default function Home() {
         <VelvetFacilities />
       </ScrollReveal>
 
-      <ScrollReveal>
-        <VelvetGallerySection />
-      </ScrollReveal>
+      <ScrollReveal></ScrollReveal>
 
       <ScrollReveal>
         <VelvetReviews />
